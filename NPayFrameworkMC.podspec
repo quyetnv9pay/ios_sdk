@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "1.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This SDK for 9Pay's Merchant"
 
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
@@ -52,6 +52,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "**/*.swift", "*.swift"
   #spec.exclude_files = "NPayFramework/Exclude"
+  spec.requires_arc = true
 
   # spec.public_header_files = "Classes/**/*.h"
 
