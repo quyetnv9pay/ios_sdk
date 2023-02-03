@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "This SDK for 9Pay's Merchant"
 
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
@@ -50,10 +50,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "**/*.swift", "*.swift"
+  spec.source_files  = "NPayFramework/**/*.swift", "*.swift"
   spec.resource_bundles = { 'Resources' => ['**/*.{xib,xcassets}'] }
   #spec.exclude_files = "NPayFramework/Exclude"
   spec.requires_arc = true
+  spec.ios.vendored_frameworks = 'NPayFramework.xcframework'
 
   # spec.public_header_files = "Classes/**/*.h"
 
