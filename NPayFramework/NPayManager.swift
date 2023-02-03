@@ -133,11 +133,6 @@ public class NPayManager {
     public func paymentMerchant(urlPayment: String) {
         let nWalletVC = NWebviewController(nibName: "NWebviewController", bundle: Bundle(identifier: "com.9payjsc.vn.NPayFramework") )
         guard let url = URL(string: urlPayment) else { return }
-//        guard let url = URL(string: "https://developers.9pay.vn/demo-portal") else { return }
-//        guard let url = URL(string: "https://sand-payment.9pay.vn/portal?baseEncode=eyJtZXJjaGFudEtleSI6Imp1QU94TCIsInRpbWUiOjE2NzExNTg2NDUsImludm9pY2Vfbm8iOiJMblMyNnRYRiIsImFtb3VudCI6MTAwMDAsImRlc2NyaXB0aW9uIjoiVGhpcyBpcyBkZXNjcmlwdGlvbiIsInJldHVybl91cmwiOiJodHRwOi8vZmNkY2M0NzY3YWNiLm5ncm9rLmlvLyIsImJhY2tfdXJsIjoiaHR0cDovL2ZjZGNjNDc2N2FjYi5uZ3Jvay5pby8iLCJtZXRob2QiOiI5UEFZIn0%3D&signature=kWx%2Fue9r1rypHvWx4quhZTOWltnx%2Ba1ZSatpinIF4Jw%3D") else {
-//            return
-//            
-//        }
         nWalletVC.strUrl = url.absoluteString
         nWalletVC.didCallBackWebView = { newUrl in
             self.viewController.dismiss(animated: false)
@@ -151,7 +146,6 @@ public class NPayManager {
     }
     
     public func openKYC() {
-//    https://stg-sdk.9pay.mobi/v1/get-token/
         let data = getHeader()
         let nWalletVC = NWebviewController(nibName: "NWebviewController", bundle: Bundle(identifier: "com.9payjsc.vn.NPayFramework") )
 //        guard let url = URL(string: stgDomain + "/v1/get-token/") else { return }
@@ -289,7 +283,6 @@ public class NPayManager {
     }
     
     private func getHeader() -> [String: Any] {
-//        request.addValue("Bearer "+(UserDefaults.getSavedValue(.accessToken) as? String ?? "accessToken"), forHTTPHeaderField: "Authorization")
         let header: [String: Any] = [
             "Merchant-Code": sdkConfig.getMerchantCode(),
             "Merchant-Uid": sdkConfig.getUid(),
@@ -301,18 +294,7 @@ public class NPayManager {
     }
     
     func getHeaderInfo() -> [String: Any] {
-        //        print("Header \n *****")
-        //        var array: [QueryItem] = []
-        //        array.append(QueryItem(name: "Device-Name", value: deviceName))
-        //        array.append(QueryItem(name: "Device-ID", value: deviceID))
-        //        array.append(QueryItem(name: "OS", value: os))
-        //        array.append(QueryItem(name: "unique-id", value: uniqueID ?? "N/A"))
-        //        array.append(QueryItem(name: "App-Version", value: "3.2.7"))
-        //        array.append(QueryItem(name: "App-version-Code", value: "352"))
-        ////        array.append(QueryItem(name: "Merchant-Code", value: self.merchantCode!))
-        ////        array.append(QueryItem(name: "Merchant-Uid", value: self.merchantUid!))
-        //        array.append(QueryItem(name: "platform", value: "iOS"))
-        
+    
         let headerDict: [String : Any] = [
             "Device-Name": deviceName,
             "Device-ID": deviceID ?? "N/A",
@@ -323,13 +305,6 @@ public class NPayManager {
             "env":"STAGING",
             "platform": "iOS",
         ]
-        //        if (self.orderID != "" )
-        //        {
-        //            array.append(QueryItem(name: "order_id", value: self.orderID))
-        //            array.append(QueryItem(name: "route", value: "payment_merchant_verify"))
-        //        }
-        
-        
         return headerDict
     }
 }

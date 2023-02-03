@@ -17,7 +17,6 @@ struct Example: Decodable {
 struct APIRequest {
     
     var resourceURL: URL
-    let urlString = "https://jsonplaceholder.typicode.com/todos/1"
     let userInfoPath = "/sdk/v2/user/info"
     let refreshToken = "/sdk/v1/login/refresh_token"
     let getMerchatAction = "/sdk/v1/func/list"
