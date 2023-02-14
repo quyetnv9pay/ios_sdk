@@ -22,7 +22,7 @@ The easiest way to start:
 let nLib = NPayManager(vController: self, sdkCfgs: SDKConfigs(merchantCode: "NGuTdi", uid: "uid", brandColor: "-15356318", env: .sandbox))
 ```
 
-Initial SDKConfigs with merchantCode, uid, brandColor and env(eviroment)
+Initial SDKConfigs with merchantCode, uid, brandColor and env(environment)
 
 ⚠️ Dont forget conform to protocol 'LibListener'
 
