@@ -49,3 +49,13 @@ class ViewController: UIViewController, LibListener {
     }
 }
 ```
+
+##Config
+
+9Pay SDK needs to use camera for ekyc feature.
+Input purpose string into Info.plist of your project
+
+```swift
+    <key>NSCameraUsageDescription</key>
+    <string>SDK need open camera</string>
+```
