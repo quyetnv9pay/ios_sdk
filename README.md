@@ -7,6 +7,7 @@
 ```ruby
 use_frameworks!
 pod 'NPayFrameworkMC', '~> 1.0.4'
+```
 
 ## Usage
 
