@@ -1,5 +1,5 @@
-# NPayFrameworkMC is a framework from 9Pay JSC. Payment solutions, digital service,... are providing by 9Pay's Digital-Wallet.
-
+# NPayFrameworkMC 
+A framework from 9Pay JSC. Payment solutions, digital service,... are providing by 9Pay's Digital-Wallet.
 
 ## Installing
 
