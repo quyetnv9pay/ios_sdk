@@ -6,7 +6,7 @@
 ### with [CocoaPods](https://cocoapods.org)
 ```ruby
 use_frameworks!
-pod 'NPayFrameworkMC', '~> 1.0.4'
+pod 'NPayFrameworkMC', '~> 1.0.5'
 ```
 
 ## Usage
