@@ -6,7 +6,7 @@ A framework from 9Pay JSC. Payment solutions, digital service,... are providing 
 ### with [CocoaPods](https://cocoapods.org)
 ```ruby
 use_frameworks!
-pod 'NPayFrameworkMC', '~> 1.0.5'
+pod 'NPayFrameworkMC', '~> 1.0.6'
 ```
 
 ## Usage
@@ -28,11 +28,15 @@ Initial SDKConfigs with merchantCode, uid, brandColor and env(environment)
 
 ```swift
 class ViewController: UIViewController, LibListener {
-    func onLoginSuccessfull() {
+    func onLoginSuccessful() {
         //
     }
 
     func onPaySuccessful() {
+        //
+    }
+    
+    func onLogoutSuccessful() {
         //
     }
     

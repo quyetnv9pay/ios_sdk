@@ -24,10 +24,11 @@ public struct Actions {
   public static let BUY_SERVICES_CARD: Swift.String
 }
 public protocol LibListener {
-  func onLoginSuccessfull()
+  func onLoginSuccessful()
   func onPaySuccessful()
   func getInfoSuccess(phone: Swift.String, balance: Swift.String, ekycStatus: Swift.String)
   func getMerchantActionSuccess(actions: [Swift.String])
+  func onLogoutSuccessful()
   func onError(errorCode: Swift.Int, message: Swift.String)
 }
 public class NPayManager {
@@ -37,7 +38,6 @@ public class NPayManager {
   public func getActionMerchant()
   public func openWallet(action: Swift.String)
   public func paymentMerchant(urlPayment: Swift.String)
-  public func openKYC()
   public func pay(_ orderID: Swift.String)
   public func open9PayApp()
   public func getAccountInfo()
