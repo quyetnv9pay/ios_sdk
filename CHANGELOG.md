@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.6] - 2023-02-20
+* Update callback onLogoutSuccessful - @vupt.
+
 ## [1.0.5] - 2023-02-16
 * Update feature recharge by transfer - @vupt.
 
