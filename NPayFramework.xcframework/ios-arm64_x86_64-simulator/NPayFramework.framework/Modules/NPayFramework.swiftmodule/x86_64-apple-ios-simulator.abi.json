@@ -800,6 +800,27 @@
             "protocolReq": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onClose",
+            "printedName": "onClose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework11LibListenerP7onCloseyyF",
+            "mangledName": "$s13NPayFramework11LibListenerP7onCloseyyF",
+            "moduleName": "NPayFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
+            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -2293,49 +2314,49 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 760,
       "length": 9,
       "value": "\"staging\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 768,
+      "offset": 792,
       "length": 6,
       "value": "\"beta\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 803,
+      "offset": 827,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 939,
+      "offset": 963,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 14947,
+      "offset": 14111,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 14972,
+      "offset": 14136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 15002,
+      "offset": 14166,
       "length": 3,
       "value": "\"0\""
     },

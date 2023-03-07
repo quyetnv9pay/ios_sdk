@@ -1,6 +1,9 @@
 # Changelog
 
-## [1.0.7] - 2023-03-07
+## [1.0.8-9] - 2023-03-09
+* Update onClose callback when close SDK - @vupt.
+
+## [1.0.7] - 2023-03-06
 * Update onError callback - @vupt.
 
 ## [1.0.6] - 2023-02-20
