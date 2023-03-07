@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.7] - 2023-03-07
+* Update onError callback - @vupt.
+
 ## [1.0.6] - 2023-02-20
 * Update callback onLogoutSuccessful - @vupt.
 
