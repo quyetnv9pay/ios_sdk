@@ -4,7 +4,7 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import Foundation
-import Lottie
+import ImageIO
 @_exported import NPayFramework
 import Swift
 import UIKit
@@ -23,6 +23,7 @@ public struct Actions {
   public static let SHOP: Swift.String
   public static let TOPUP_DATA_CARD: Swift.String
   public static let BUY_SERVICES_CARD: Swift.String
+  public static let QR: Swift.String
 }
 public protocol LibListener {
   func onLoginSuccessful()
@@ -64,6 +65,18 @@ public enum EnvironmentKey : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor(unsafe) public func loadGif(name: Swift.String)
+  @available(iOS 9.0, *)
+  @_Concurrency.MainActor(unsafe) public func loadGif(asset: Swift.String)
+}
+extension UIKit.UIImage {
+  public class func gif(data: Foundation.Data) -> UIKit.UIImage?
+  public class func gif(url: Swift.String) -> UIKit.UIImage?
+  public class func gif(name: Swift.String) -> UIKit.UIImage?
+  @available(iOS 9.0, *)
+  public class func gif(asset: Swift.String) -> UIKit.UIImage?
 }
 extension NPayFramework.EnvironmentKey : Swift.Equatable {}
 extension NPayFramework.EnvironmentKey : Swift.Hashable {}

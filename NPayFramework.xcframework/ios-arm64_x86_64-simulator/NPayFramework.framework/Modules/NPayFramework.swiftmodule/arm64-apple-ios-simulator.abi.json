@@ -592,6 +592,53 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "QR",
+            "printedName": "QR",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13NPayFramework7ActionsV2QRSSvpZ",
+            "mangledName": "$s13NPayFramework7ActionsV2QRSSvpZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13NPayFramework7ActionsV2QRSSvgZ",
+                "mangledName": "$s13NPayFramework7ActionsV2QRSSvgZ",
+                "moduleName": "NPayFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -1609,6 +1656,23 @@
       },
       {
         "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -1618,13 +1682,6 @@
         "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "NPayFramework"
-      },
-      {
-        "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
         "declKind": "Import",
         "moduleName": "NPayFramework"
       },
@@ -1641,6 +1698,392 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImageView",
+        "printedName": "UIImageView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadGif",
+            "printedName": "loadGif(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC13NPayFrameworkE7loadGif4nameySS_tF",
+            "mangledName": "$sSo11UIImageViewC13NPayFrameworkE7loadGif4nameySS_tF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadGif",
+            "printedName": "loadGif(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC13NPayFrameworkE7loadGif5assetySS_tF",
+            "mangledName": "$sSo11UIImageViewC13NPayFrameworkE7loadGif5assetySS_tF",
+            "moduleName": "NPayFramework",
+            "intro_iOS": "9.0",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImageView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImageView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC13NPayFrameworkE3gif4dataABSg10Foundation4DataV_tFZ",
+            "mangledName": "$sSo7UIImageC13NPayFrameworkE3gif4dataABSg10Foundation4DataV_tFZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC13NPayFrameworkE3gif3urlABSgSS_tFZ",
+            "mangledName": "$sSo7UIImageC13NPayFrameworkE3gif3urlABSgSS_tFZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC13NPayFrameworkE3gif4nameABSgSS_tFZ",
+            "mangledName": "$sSo7UIImageC13NPayFrameworkE3gif4nameABSgSS_tFZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(asset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC13NPayFrameworkE3gif5assetABSgSS_tFZ",
+            "mangledName": "$sSo7UIImageC13NPayFrameworkE3gif5assetABSgSS_tFZ",
+            "moduleName": "NPayFramework",
+            "static": true,
+            "intro_iOS": "9.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -1677,28 +2120,28 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 153,
+      "offset": 152,
       "length": 14,
       "value": "\"access_token\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 201,
+      "offset": 199,
       "length": 15,
       "value": "\"refresh_token\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 251,
+      "offset": 253,
       "length": 52,
       "value": "\"https:\/\/stg-web.wallet.9pay.mobi\/merchant\/payment\/\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 339,
+      "offset": 340,
       "length": 40,
       "value": "\"https:\/\/sand.9pay.vn\/merchant\/payment\/\""
     },
@@ -1712,42 +2155,63 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 483,
       "length": 21,
       "value": "\"https:\/\/sdk.9pay.vn\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 533,
+      "offset": 535,
       "length": 26,
       "value": "\"https:\/\/sand-sdk.9pay.vn\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 591,
+      "offset": 592,
       "length": 27,
       "value": "\"https:\/\/stg-sdk.9pay.mobi\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 662,
+      "offset": 653,
+      "length": 22,
+      "value": "\"https:\/\/shop.9pay.vn\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 27,
+      "value": "\"https:\/\/sand-shop.9pay.vn\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 766,
+      "length": 28,
+      "value": "\"https:\/\/stg-shop.9pay.mobi\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
       "length": 27,
       "value": "\"https:\/\/stg-api.9pay.mobi\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 721,
+      "offset": 899,
       "length": 25,
       "value": "\"http:\/\/sand-api.9pay.vn\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 775,
+      "offset": 952,
       "length": 21,
       "value": "\"https:\/\/api.9pay.vn\""
     },
@@ -1894,322 +2358,322 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1741,
       "length": 13,
       "value": "\"referenceID\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1804,
       "length": 10,
       "value": "\"is_block\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1837,
+      "offset": 1839,
       "length": 11,
       "value": "\"is_actice\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 1875,
       "length": 11,
       "value": "\"is_verify\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
+      "offset": 1912,
       "length": 11,
       "value": "\"update_at\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1947,
+      "offset": 1949,
       "length": 11,
       "value": "\"create_at\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2024,
+      "offset": 2026,
       "length": 14,
       "value": "\"is_fun_group\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2066,
       "length": 12,
       "value": "\"draft_info\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2103,
+      "offset": 2105,
       "length": 13,
       "value": "\"is_merchant\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2141,
       "length": 9,
       "value": "\"hash_id\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2174,
+      "offset": 2176,
       "length": 12,
       "value": "\"refer_code\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2220,
       "length": 20,
       "value": "\"is_used_refer_code\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2273,
       "length": 21,
       "value": "\"is_show_refer_event\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 2318,
       "length": 10,
       "value": "\"is_napas\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2352,
       "length": 10,
       "value": "\"kyc_type\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2418,
+      "offset": 2420,
       "length": 17,
       "value": "\"noti_non_readed\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2458,
+      "offset": 2460,
       "length": 9,
       "value": "\"qr_code\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2494,
+      "offset": 2496,
       "length": 13,
       "value": "\"verify_user\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2542,
       "length": 20,
       "value": "\"user_transfer_link\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2613,
+      "offset": 2615,
       "length": 18,
       "value": "\"status_bank_link\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 2696,
       "length": 23,
       "value": "\"check_validate_verify\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 2747,
       "length": 14,
       "value": "\"config_limit\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2789,
       "length": 14,
       "value": "\"auto_payment\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1739,
+      "offset": 1741,
       "length": 13,
       "value": "\"referenceID\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1804,
       "length": 10,
       "value": "\"is_block\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1837,
+      "offset": 1839,
       "length": 11,
       "value": "\"is_actice\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 1875,
       "length": 11,
       "value": "\"is_verify\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
+      "offset": 1912,
       "length": 11,
       "value": "\"update_at\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 1947,
+      "offset": 1949,
       "length": 11,
       "value": "\"create_at\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2024,
+      "offset": 2026,
       "length": 14,
       "value": "\"is_fun_group\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2066,
       "length": 12,
       "value": "\"draft_info\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2103,
+      "offset": 2105,
       "length": 13,
       "value": "\"is_merchant\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2139,
+      "offset": 2141,
       "length": 9,
       "value": "\"hash_id\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2174,
+      "offset": 2176,
       "length": 12,
       "value": "\"refer_code\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2220,
       "length": 20,
       "value": "\"is_used_refer_code\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2273,
       "length": 21,
       "value": "\"is_show_refer_event\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2316,
+      "offset": 2318,
       "length": 10,
       "value": "\"is_napas\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2352,
       "length": 10,
       "value": "\"kyc_type\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2418,
+      "offset": 2420,
       "length": 17,
       "value": "\"noti_non_readed\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2458,
+      "offset": 2460,
       "length": 9,
       "value": "\"qr_code\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2494,
+      "offset": 2496,
       "length": 13,
       "value": "\"verify_user\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2542,
       "length": 20,
       "value": "\"user_transfer_link\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2613,
+      "offset": 2615,
       "length": 18,
       "value": "\"status_bank_link\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 2696,
       "length": 23,
       "value": "\"check_validate_verify\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 2747,
       "length": 14,
       "value": "\"config_limit\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2789,
       "length": 14,
       "value": "\"auto_payment\""
     },
@@ -2291,6 +2755,13 @@
       "value": "\"service_card\""
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 671,
+      "length": 14,
+      "value": "\"scan_qr_code\""
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "IntegerLiteral",
       "offset": 217,
@@ -2342,21 +2813,21 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 14144,
+      "offset": 13528,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 14169,
+      "offset": 13553,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 14199,
+      "offset": 13583,
       "length": 3,
       "value": "\"0\""
     },
@@ -2410,44 +2881,51 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Flavor.swift",
+      "kind": "StringLiteral",
+      "offset": 291,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 594,
+      "offset": 596,
       "length": 28,
       "value": "\"https:\/\/stackoverflow.com\/\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 735,
+      "offset": 737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 760,
+      "offset": 762,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 797,
+      "offset": 799,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 830,
+      "offset": 832,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 888,
+      "offset": 890,
       "length": 2,
       "value": "\"\""
     }

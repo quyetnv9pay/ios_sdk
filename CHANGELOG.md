@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.11] - 2023-03-13
+* Add loading - @vupt.
+
 ## [1.0.10] - 2023-03-09
 * Fix error complier - @vupt.
 
