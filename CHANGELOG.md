@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.0-1.1.1] - 2023-03-22
+* New loading & add more action - @vupt.
+
 ## [1.0.11] - 2023-03-13
 * Add loading - @vupt.
 
