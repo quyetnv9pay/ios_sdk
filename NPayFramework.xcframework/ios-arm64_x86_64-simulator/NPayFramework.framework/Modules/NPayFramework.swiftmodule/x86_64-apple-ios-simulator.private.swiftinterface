@@ -24,6 +24,19 @@ public struct Actions {
   public static let TOPUP_DATA_CARD: Swift.String
   public static let BUY_SERVICES_CARD: Swift.String
   public static let QR: Swift.String
+  public static let BILLING_DIEN: Swift.String
+  public static let BILLING_TRUYEN_HINH: Swift.String
+  public static let BILLING_DIEN_THOAI: Swift.String
+  public static let BILLING_INTERNET: Swift.String
+  public static let BILLING_NUOC: Swift.String
+  public static let BILLING_BAO_HIEM: Swift.String
+  public static let BILLING_TAI_CHINH: Swift.String
+  public static let BILLING_TRA_SAU: Swift.String
+  public static let BILLING_TIN_DUNG: Swift.String
+  public static let BILLING_HOC_PHI: Swift.String
+  public static let BILLING_TRA_GOP: Swift.String
+  public static let BILLING_VE_TAU_XE: Swift.String
+  public static let BILLING_VETC: Swift.String
 }
 public protocol LibListener {
   func onLoginSuccessful()

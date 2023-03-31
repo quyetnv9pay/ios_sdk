@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.2] - 2023-03-31
+* Add more Actions including new billing service - @vupt.
+
 ## [1.1.0-1.1.1] - 2023-03-22
 * New loading & add more action - @vupt.
 
