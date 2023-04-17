@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.2] - 2023-05-17
+* Add tracking infor - @vupt.
+
 ## [1.1.2] - 2023-03-31
 * Add more Actions including new billing service - @vupt.
 

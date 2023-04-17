@@ -91,6 +91,9 @@ extension UIKit.UIImage {
   @available(iOS 9.0, *)
   public class func gif(asset: Swift.String) -> UIKit.UIImage?
 }
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+}
 extension NPayFramework.EnvironmentKey : Swift.Equatable {}
 extension NPayFramework.EnvironmentKey : Swift.Hashable {}
 extension NPayFramework.EnvironmentKey : Swift.RawRepresentable {}
