@@ -1,6 +1,9 @@
 # Changelog
 
-## [1.1.2] - 2023-05-17
+## [1.1.4] - 2023-05-09
+* Add tracking infor - @vupt.
+
+## [1.1.2] - 2023-04-17
 * Add tracking infor - @vupt.
 
 ## [1.1.2] - 2023-03-31
