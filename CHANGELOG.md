@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.0.0] - 2023-08-09
+* Upgrade version 2.0 - @vupt.
+
 ## [1.1.4] - 2023-05-09
 * Add tracking infor - @vupt.
 

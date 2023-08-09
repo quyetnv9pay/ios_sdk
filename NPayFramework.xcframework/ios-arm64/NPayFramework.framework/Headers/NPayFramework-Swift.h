@@ -230,6 +230,9 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreFoundation;
+@import Foundation;
+@import UIKit;
 #endif
 
 #endif
@@ -250,6 +253,295 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSString;
+@class UIView;
+@class NSCoder;
+
+/// A TextFieldEffects object is a control that displays editable text and contains the boilerplates to setup unique animations for text entry and display. You typically use this class the same way you use UITextField.
+SWIFT_CLASS("_TtC13NPayFramework16TextFieldEffects")
+@interface TextFieldEffects : UITextField
+- (void)drawRect:(CGRect)rect;
+- (void)drawPlaceholderInRect:(CGRect)rect;
+@property (nonatomic, copy) NSString * _Nullable text;
+- (void)willMoveToSuperview:(UIView * _Null_unspecified)newSuperview;
+/// The textfield has started an editing session.
+- (void)textFieldDidBeginEditing;
+/// The textfield has ended an editing session.
+- (void)textFieldDidEndEditing;
+- (void)prepareForInterfaceBuilder;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIColor;
+
+/// An HoshiTextField is a subclass of the TextFieldEffects object, is a control that displays an UITextField with a customizable visual effect around the lower edge of the control.
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC13NPayFramework14HoshiTextField")
+@interface HoshiTextField : TextFieldEffects
+/// The color of the border when it has no content.
+/// This property applies a color to the lower edge of the control. The default value for this property is a clear color.
+@property (nonatomic, strong) IBInspectable UIColor * _Nullable borderInactiveColor;
+/// The color of the border when it has content.
+/// This property applies a color to the lower edge of the control. The default value for this property is a clear color.
+@property (nonatomic, strong) IBInspectable UIColor * _Nullable borderActiveColor;
+/// The color of the placeholder text.
+/// This property applies a color to the complete placeholder string. The default value for this property is a black color.
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull placeholderColor;
+/// The scale of the placeholder font.
+/// This property determines the size of the placeholder label relative to the font size of the text field.
+@property (nonatomic) IBInspectable CGFloat placeholderFontScale;
+@property (nonatomic, copy) NSString * _Nullable placeholder;
+@property (nonatomic) CGRect bounds;
+- (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+enum PopoverType : NSInteger;
+@class UIBlurEffect;
+@class UIControl;
+
+SWIFT_CLASS("_TtC13NPayFramework7Popover")
+@interface Popover : UIView
+@property (nonatomic) CGSize arrowSize;
+@property (nonatomic) NSTimeInterval animationIn;
+@property (nonatomic) NSTimeInterval animationOut;
+@property (nonatomic) CGFloat cornerRadius;
+@property (nonatomic) CGFloat sideEdge;
+@property (nonatomic) enum PopoverType popoverType;
+@property (nonatomic, strong) UIColor * _Nonnull blackOverlayColor;
+@property (nonatomic, strong) UIBlurEffect * _Nullable overlayBlur;
+@property (nonatomic, strong) UIColor * _Nonnull popoverColor;
+@property (nonatomic) BOOL dismissOnBlackOverlayTap;
+@property (nonatomic) BOOL showBlackOverlay;
+@property (nonatomic) BOOL highlightFromView;
+@property (nonatomic) CGFloat highlightCornerRadius;
+@property (nonatomic) CGFloat springDamping;
+@property (nonatomic) CGFloat initialSpringVelocity;
+@property (nonatomic) CGFloat sideOffset;
+@property (nonatomic, strong) UIColor * _Nullable borderColor;
+@property (nonatomic, copy) void (^ _Nullable willShowHandler)(void);
+@property (nonatomic, copy) void (^ _Nullable willDismissHandler)(void);
+@property (nonatomic, copy) void (^ _Nullable didShowHandler)(void);
+@property (nonatomic, copy) void (^ _Nullable didDismissHandler)(void);
+@property (nonatomic, readonly, strong) UIControl * _Nonnull blackOverlay;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithShowHandler:(void (^ _Nullable)(void))showHandler dismissHandler:(void (^ _Nullable)(void))dismissHandler OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (void)showAsDialog:(UIView * _Nonnull)contentView;
+- (void)showAsDialog:(UIView * _Nonnull)contentView inView:(UIView * _Nonnull)inView;
+- (void)show:(UIView * _Nonnull)contentView fromView:(UIView * _Nonnull)fromView;
+- (void)show:(UIView * _Nonnull)contentView fromView:(UIView * _Nonnull)fromView inView:(UIView * _Nonnull)inView;
+- (void)show:(UIView * _Nonnull)contentView point:(CGPoint)point;
+- (void)show:(UIView * _Nonnull)contentView point:(CGPoint)point inView:(UIView * _Nonnull)inView;
+- (BOOL)accessibilityPerformEscape SWIFT_WARN_UNUSED_RESULT;
+- (void)dismiss;
+- (void)drawRect:(CGRect)rect;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+typedef SWIFT_ENUM(NSInteger, PopoverType, open) {
+  PopoverTypeUp = 0,
+  PopoverTypeDown = 1,
+  PopoverTypeLeft = 2,
+  PopoverTypeRight = 3,
+  PopoverTypeAuto = 4,
+};
+
+@class UIFont;
+
+/// A beautiful and flexible textfield implementation with support for title label, error message and placeholder.
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC13NPayFramework25SkyFloatingLabelTextField")
+@interface SkyFloatingLabelTextField : UITextField
+/// A Boolean value that determines if the language displayed is LTR.
+/// Default value set automatically from the application language settings.
+@property (nonatomic) BOOL isLTRLanguage;
+/// The value of the title appearing duration
+@property (nonatomic) NSTimeInterval titleFadeInDuration;
+/// The value of the title disappearing duration
+@property (nonatomic) NSTimeInterval titleFadeOutDuration;
+/// A UIColor value that determines the text color of the editable text
+@property (nonatomic, strong) IBInspectable UIColor * _Nullable textColor;
+/// A UIColor value that determines text color of the placeholder label
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull placeholderColor;
+/// A UIFont value that determines text color of the placeholder label
+@property (nonatomic, strong) UIFont * _Nullable placeholderFont;
+/// A UIFont value that determines the text font of the title label
+@property (nonatomic, strong) UIFont * _Nonnull titleFont;
+/// A UIColor value that determines the text color of the title label when in the normal state
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull titleColor;
+/// A UIColor value that determines the color of the bottom line when in the normal state
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull lineColor;
+/// A UIColor value that determines the color used for the label displaying the error message
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull errorColor;
+/// A UIColor value that determines the color used for the line when error message is not <code>nil</code>
+@property (nonatomic, strong) IBInspectable UIColor * _Nullable lineErrorColor;
+/// A UIColor value that determines the color used for the text when error message is not <code>nil</code>
+@property (nonatomic, strong) IBInspectable UIColor * _Nullable textErrorColor;
+/// A UIColor value that determines the color used for the title label when error message is not <code>nil</code>
+@property (nonatomic, strong) IBInspectable UIColor * _Nullable titleErrorColor;
+/// A UIColor value that determines the color used for the title label and line when text field is disabled
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull disabledColor;
+/// A UIColor value that determines the text color of the title label when editing
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull selectedTitleColor;
+/// A UIColor value that determines the color of the line in a selected state
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull selectedLineColor;
+/// A CGFloat value that determines the height for the bottom line when the control is in the normal state
+@property (nonatomic) IBInspectable CGFloat lineHeight;
+/// A CGFloat value that determines the height for the bottom line when the control is in a selected state
+@property (nonatomic) IBInspectable CGFloat selectedLineHeight;
+/// Identifies whether the text object should hide the text being entered.
+@property (nonatomic, getter=isSecureTextEntry) BOOL secureTextEntry;
+/// A String value for the error message to display.
+@property (nonatomic, copy) IBInspectable NSString * _Nullable errorMessage;
+/// A Boolean value that determines whether the receiver is highlighted.
+/// When changing this value, highlighting will be done with animation
+@property (nonatomic, getter=isHighlighted) BOOL highlighted;
+/// The text content of the textfield
+@property (nonatomic, copy) IBInspectable NSString * _Nullable text;
+/// The String to display when the input field is empty.
+/// The placeholder can also appear in the title label when both <code>title</code> <code>selectedTitle</code> and are <code>nil</code>.
+@property (nonatomic, copy) IBInspectable NSString * _Nullable placeholder;
+/// The String to display when the textfield is editing and the input is not empty.
+@property (nonatomic, copy) IBInspectable NSString * _Nullable selectedTitle;
+/// The String to display when the textfield is not editing and the input is not empty.
+@property (nonatomic, copy) IBInspectable NSString * _Nullable title;
+@property (nonatomic, getter=isSelected) BOOL selected;
+/// Initializes the control
+/// \param frame the frame of the control 
+///
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+/// Intialzies the control by deserializing it
+/// \param aDecoder the object to deserialize the control from 
+///
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/// Invoked when the editing state of the textfield changes. Override to respond to this change.
+- (void)editingChanged;
+/// Attempt the control to become the first responder
+///
+/// returns:
+/// True when successfull becoming the first responder
+- (BOOL)becomeFirstResponder;
+/// Attempt the control to resign being the first responder
+///
+/// returns:
+/// True when successfull resigning being the first responder
+- (BOOL)resignFirstResponder;
+/// update colors when is enabled changed
+@property (nonatomic, getter=isEnabled) BOOL enabled;
+/// Calculate the rectangle for the textfield when it is not being edited
+/// \param bounds The current bounds of the field
+///
+///
+/// returns:
+/// The rectangle that the textfield should render in
+- (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+/// Calculate the rectangle for the textfield when it is being edited
+/// \param bounds The current bounds of the field
+///
+///
+/// returns:
+/// The rectangle that the textfield should render in
+- (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+/// Calculate the rectangle for the placeholder
+/// \param bounds The current bounds of the placeholder
+///
+///
+/// returns:
+/// The rectangle that the placeholder should render in
+- (CGRect)placeholderRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+/// Invoked when the interface builder renders the control
+- (void)prepareForInterfaceBuilder;
+/// Invoked by layoutIfNeeded automatically
+- (void)layoutSubviews;
+/// Calculate the content size for auto layout
+///
+/// returns:
+/// the content size to be used for auto layout
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+@end
+
+@class UIImage;
+
+/// A beautiful and flexible textfield implementation with support for icon, title label, error message and placeholder.
+SWIFT_CLASS("_TtC13NPayFramework33SkyFloatingLabelTextFieldWithIcon")
+@interface SkyFloatingLabelTextFieldWithIcon : SkyFloatingLabelTextField
+/// A UIImage value that determines the image that the icon is using
+@property (nonatomic, strong) IBInspectable UIImage * _Nullable iconImage;
+/// A Bool value that determines if the UIImage should be templated or not
+@property (nonatomic) IBInspectable BOOL templateImage;
+/// A UIFont value that determines the font that the icon is using
+@property (nonatomic, strong) UIFont * _Nullable iconFont;
+/// A String value that determines the text used when displaying the icon
+@property (nonatomic, copy) IBInspectable NSString * _Nullable iconText;
+/// A UIColor value that determines the color of the icon in the normal state
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull iconColor;
+/// A UIColor value that determines the color of the icon when the control is selected
+@property (nonatomic, strong) IBInspectable UIColor * _Nonnull selectedIconColor;
+/// A float value that determines the width of the icon
+@property (nonatomic) IBInspectable CGFloat iconWidth;
+/// A float value that determines the left margin of the icon.
+/// Use this value to position the icon more precisely horizontally.
+@property (nonatomic) IBInspectable CGFloat iconMarginLeft;
+/// A float value that determines the bottom margin of the icon.
+/// Use this value to position the icon more precisely vertically.
+@property (nonatomic) IBInspectable CGFloat iconMarginBottom;
+/// A float value that determines the rotation in degrees of the icon.
+/// Use this value to rotate the icon in either direction.
+@property (nonatomic) IBInspectable double iconRotationDegrees;
+/// Initializes the control
+/// \param frame the frame of the control 
+///
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+/// Intialzies the control by deserializing it
+/// \param aDecoder the object to deserialize the control from 
+///
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/// Calculate the bounds for the textfield component of the control.
+/// Override to create a custom size textbox in the control.
+/// \param bounds The current bounds of the textfield component
+///
+///
+/// returns:
+/// The rectangle that the textfield component should render in
+- (CGRect)textRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+/// Calculate the rectangle for the textfield when it is being edited
+/// \param bounds The current bounds of the field
+///
+///
+/// returns:
+/// The rectangle that the textfield should render in
+- (CGRect)editingRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+/// Calculates the bounds for the placeholder component of the control.
+/// Override to create a custom size textbox in the control.
+/// \param bounds The current bounds of the placeholder component
+///
+///
+/// returns:
+/// The rectangle that the placeholder component should render in
+- (CGRect)placeholderRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
+/// Invoked by layoutIfNeeded automatically
+- (void)layoutSubviews;
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
