@@ -4832,8 +4832,8 @@
           },
           {
             "kind": "Var",
-            "name": "SCAN_QR",
-            "printedName": "SCAN_QR",
+            "name": "QR",
+            "printedName": "QR",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -4863,8 +4863,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13NPayFramework13ServiceActionO7SCAN_QRyA2CmF",
-            "mangledName": "$s13NPayFramework13ServiceActionO7SCAN_QRyA2CmF",
+            "usr": "s:13NPayFramework13ServiceActionO2QRyA2CmF",
+            "mangledName": "$s13NPayFramework13ServiceActionO2QRyA2CmF",
             "moduleName": "NPayFramework"
           },
           {
@@ -4909,8 +4909,8 @@
           },
           {
             "kind": "Var",
-            "name": "TOPUP_PHONE_CARD",
-            "printedName": "TOPUP_PHONE_CARD",
+            "name": "TOPUP",
+            "printedName": "TOPUP",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -4940,8 +4940,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13NPayFramework13ServiceActionO16TOPUP_PHONE_CARDyA2CmF",
-            "mangledName": "$s13NPayFramework13ServiceActionO16TOPUP_PHONE_CARDyA2CmF",
+            "usr": "s:13NPayFramework13ServiceActionO5TOPUPyA2CmF",
+            "mangledName": "$s13NPayFramework13ServiceActionO5TOPUPyA2CmF",
             "moduleName": "NPayFramework",
             "declAttributes": [
               "RawDocComment"
@@ -4949,8 +4949,8 @@
           },
           {
             "kind": "Var",
-            "name": "BUY_PHONE_CARD",
-            "printedName": "BUY_PHONE_CARD",
+            "name": "PHONE_CARD",
+            "printedName": "PHONE_CARD",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -4980,14 +4980,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13NPayFramework13ServiceActionO14BUY_PHONE_CARDyA2CmF",
-            "mangledName": "$s13NPayFramework13ServiceActionO14BUY_PHONE_CARDyA2CmF",
+            "usr": "s:13NPayFramework13ServiceActionO10PHONE_CARDyA2CmF",
+            "mangledName": "$s13NPayFramework13ServiceActionO10PHONE_CARDyA2CmF",
             "moduleName": "NPayFramework"
           },
           {
             "kind": "Var",
-            "name": "TOPUP_DATA_CARD",
-            "printedName": "TOPUP_DATA_CARD",
+            "name": "DATA_CARD",
+            "printedName": "DATA_CARD",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5017,14 +5017,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13NPayFramework13ServiceActionO15TOPUP_DATA_CARDyA2CmF",
-            "mangledName": "$s13NPayFramework13ServiceActionO15TOPUP_DATA_CARDyA2CmF",
+            "usr": "s:13NPayFramework13ServiceActionO9DATA_CARDyA2CmF",
+            "mangledName": "$s13NPayFramework13ServiceActionO9DATA_CARDyA2CmF",
             "moduleName": "NPayFramework"
           },
           {
             "kind": "Var",
-            "name": "BUY_SERVICES_CARD",
-            "printedName": "BUY_SERVICES_CARD",
+            "name": "SERVICES_CARD",
+            "printedName": "SERVICES_CARD",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5054,8 +5054,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:13NPayFramework13ServiceActionO17BUY_SERVICES_CARDyA2CmF",
-            "mangledName": "$s13NPayFramework13ServiceActionO17BUY_SERVICES_CARDyA2CmF",
+            "usr": "s:13NPayFramework13ServiceActionO13SERVICES_CARDyA2CmF",
+            "mangledName": "$s13NPayFramework13ServiceActionO13SERVICES_CARDyA2CmF",
             "moduleName": "NPayFramework"
           },
           {
@@ -19484,56 +19484,56 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1972,
-      "length": 9,
-      "value": "\"SCAN_QR\""
+      "offset": 1967,
+      "length": 4,
+      "value": "\"QR\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2029,
+      "offset": 2019,
       "length": 13,
       "value": "\"SDK_PAYMENT\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
-      "length": 18,
-      "value": "\"TOPUP_PHONE_CARD\""
+      "offset": 2069,
+      "length": 7,
+      "value": "\"TOPUP\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2135,
-      "length": 16,
-      "value": "\"BUY_PHONE_CARD\""
+      "offset": 2099,
+      "length": 12,
+      "value": "\"PHONE_CARD\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2179,
-      "length": 17,
-      "value": "\"TOPUP_DATA_CARD\""
+      "offset": 2133,
+      "length": 11,
+      "value": "\"DATA_CARD\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
-      "length": 18,
-      "value": "\"BUY_SERVICE_CARD\""
+      "offset": 2170,
+      "length": 14,
+      "value": "\"SERVICE_CARD\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2264,
+      "offset": 2204,
       "length": 9,
       "value": "\"BILLING\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2295,
+      "offset": 2235,
       "length": 11,
       "value": "\"GAME_CARD\""
     },
@@ -19582,56 +19582,56 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1972,
-      "length": 9,
-      "value": "\"SCAN_QR\""
+      "offset": 1967,
+      "length": 4,
+      "value": "\"QR\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2029,
+      "offset": 2019,
       "length": 13,
       "value": "\"SDK_PAYMENT\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
-      "length": 18,
-      "value": "\"TOPUP_PHONE_CARD\""
+      "offset": 2069,
+      "length": 7,
+      "value": "\"TOPUP\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2135,
-      "length": 16,
-      "value": "\"BUY_PHONE_CARD\""
+      "offset": 2099,
+      "length": 12,
+      "value": "\"PHONE_CARD\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2179,
-      "length": 17,
-      "value": "\"TOPUP_DATA_CARD\""
+      "offset": 2133,
+      "length": 11,
+      "value": "\"DATA_CARD\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
-      "length": 18,
-      "value": "\"BUY_SERVICE_CARD\""
+      "offset": 2170,
+      "length": 14,
+      "value": "\"SERVICE_CARD\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2264,
+      "offset": 2204,
       "length": 9,
       "value": "\"BILLING\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2295,
+      "offset": 2235,
       "length": 11,
       "value": "\"GAME_CARD\""
     },
@@ -19743,35 +19743,35 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24625,
+      "offset": 24595,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25264,
+      "offset": 25234,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25886,
+      "offset": 25856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26494,
+      "offset": 26464,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/new_9Pay_SDK\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27156,
+      "offset": 27126,
       "length": 4,
       "value": "true"
     },

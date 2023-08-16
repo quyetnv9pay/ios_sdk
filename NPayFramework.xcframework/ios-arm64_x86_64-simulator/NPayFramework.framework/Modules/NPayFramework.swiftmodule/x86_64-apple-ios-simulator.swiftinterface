@@ -161,12 +161,12 @@ public enum ServiceAction : Swift.String {
   case TRANSFER
   case WITHDRAW
   case HISTORY
-  case SCAN_QR
+  case QR
   case SDK_PAYMENT
-  case TOPUP_PHONE_CARD
-  case BUY_PHONE_CARD
-  case TOPUP_DATA_CARD
-  case BUY_SERVICES_CARD
+  case TOPUP
+  case PHONE_CARD
+  case DATA_CARD
+  case SERVICES_CARD
   case BILLING
   case GAME_CARD
   public init?(rawValue: Swift.String)
