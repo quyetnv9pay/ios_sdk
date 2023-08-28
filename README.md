@@ -6,7 +6,7 @@ A framework from 9Pay JSC. Payment solutions, digital service,... are providing 
 ### with [CocoaPods](https://cocoapods.org)
 ```ruby
 use_frameworks!
-pod 'NPayFrameworkMC', '~> 2.0.1'
+pod 'NPayFrameworkMC', '~> 2.0.2'
 ```
 
 ## Usage

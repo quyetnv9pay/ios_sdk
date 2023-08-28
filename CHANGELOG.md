@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.0.2] - 2023-08-28
+* Rebuild.
+
 ## [2.0.0-2.0.1] - 2023-08-16
 * Upgrade version 2.0 - @vupt.
 
