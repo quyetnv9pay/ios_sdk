@@ -148,6 +148,7 @@ public enum PaymentMethod : Swift.String {
   case CREDIT_CARD
   case LINK_BANK
   case DEFAULT
+  case TRANSFER
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -202,8 +203,9 @@ public class NPayManager {
   @objc deinit
 }
 public class SDKConfigs {
-  public init(merchantCode: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey)
+  public init(merchantCode: Swift.String, secretKey: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey)
   public func getMerchantCode() -> Swift.String
+  public func getSecretKey() -> Swift.String
   public func getUid() -> Swift.String
   public func getBrandColor() -> Swift.String
   @objc deinit

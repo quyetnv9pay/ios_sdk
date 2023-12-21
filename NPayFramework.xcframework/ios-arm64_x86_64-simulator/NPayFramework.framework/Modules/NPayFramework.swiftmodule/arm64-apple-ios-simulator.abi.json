@@ -4481,6 +4481,43 @@
             "moduleName": "NPayFramework"
           },
           {
+            "kind": "Var",
+            "name": "TRANSFER",
+            "printedName": "TRANSFER",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NPayFramework.PaymentMethod.Type) -> NPayFramework.PaymentMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "NPayFramework.PaymentMethod",
+                    "usr": "s:13NPayFramework13PaymentMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NPayFramework.PaymentMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMethod",
+                        "printedName": "NPayFramework.PaymentMethod",
+                        "usr": "s:13NPayFramework13PaymentMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13NPayFramework13PaymentMethodO8TRANSFERyA2CmF",
+            "mangledName": "$s13NPayFramework13PaymentMethodO8TRANSFERyA2CmF",
+            "moduleName": "NPayFramework"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -5999,13 +6036,19 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantCode:uid:brandColor:env:)",
+            "printedName": "init(merchantCode:secretKey:uid:brandColor:env:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "SDKConfigs",
                 "printedName": "NPayFramework.SDKConfigs",
                 "usr": "s:13NPayFramework10SDKConfigsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -6041,12 +6084,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13NPayFramework10SDKConfigsC12merchantCode3uid10brandColor3envACSS_SSSgSSAA14EnvironmentKeyOtcfc",
-            "mangledName": "$s13NPayFramework10SDKConfigsC12merchantCode3uid10brandColor3envACSS_SSSgSSAA14EnvironmentKeyOtcfc",
+            "usr": "s:13NPayFramework10SDKConfigsC12merchantCode9secretKey3uid10brandColor3envACSS_S2SSgSSAA011EnvironmentG0Otcfc",
+            "mangledName": "$s13NPayFramework10SDKConfigsC12merchantCode9secretKey3uid10brandColor3envACSS_S2SSgSSAA011EnvironmentG0Otcfc",
             "moduleName": "NPayFramework",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -6065,6 +6107,27 @@
             "declKind": "Func",
             "usr": "s:13NPayFramework10SDKConfigsC15getMerchantCodeSSyF",
             "mangledName": "$s13NPayFramework10SDKConfigsC15getMerchantCodeSSyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSecretKey",
+            "printedName": "getSecretKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework10SDKConfigsC12getSecretKeySSyF",
+            "mangledName": "$s13NPayFramework10SDKConfigsC12getSecretKeySSyF",
             "moduleName": "NPayFramework",
             "declAttributes": [
               "AccessControl"
@@ -19407,6 +19470,13 @@
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 10,
+      "value": "\"TRANSFER\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
       "offset": 1562,
       "length": 8,
       "value": "\"WALLET\""
@@ -19442,196 +19512,203 @@
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
-      "length": 7,
-      "value": "\"LOGIN\""
-    },
-    {
-      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
-      "kind": "StringLiteral",
-      "offset": 1816,
-      "length": 16,
-      "value": "\"RESET_PASSWORD\""
-    },
-    {
-      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
-      "kind": "StringLiteral",
-      "offset": 1852,
-      "length": 9,
-      "value": "\"DEPOSIT\""
-    },
-    {
-      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
-      "kind": "StringLiteral",
-      "offset": 1882,
+      "offset": 1719,
       "length": 10,
       "value": "\"TRANSFER\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
+      "offset": 1813,
+      "length": 7,
+      "value": "\"LOGIN\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 1847,
+      "length": 16,
+      "value": "\"RESET_PASSWORD\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 1883,
+      "length": 9,
+      "value": "\"DEPOSIT\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
       "offset": 1913,
+      "length": 10,
+      "value": "\"TRANSFER\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
+      "kind": "StringLiteral",
+      "offset": 1944,
       "length": 10,
       "value": "\"WITHDRAW\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1974,
       "length": 9,
       "value": "\"HISTORY\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 1998,
       "length": 4,
       "value": "\"QR\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2019,
+      "offset": 2050,
       "length": 13,
       "value": "\"SDK_PAYMENT\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2069,
+      "offset": 2100,
       "length": 7,
       "value": "\"TOPUP\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2099,
+      "offset": 2130,
       "length": 12,
       "value": "\"PHONE_CARD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2133,
+      "offset": 2164,
       "length": 11,
       "value": "\"DATA_CARD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2170,
+      "offset": 2201,
       "length": 14,
       "value": "\"SERVICE_CARD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2204,
+      "offset": 2235,
       "length": 9,
       "value": "\"BILLING\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2235,
+      "offset": 2266,
       "length": 11,
       "value": "\"GAME_CARD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1782,
+      "offset": 1813,
       "length": 7,
       "value": "\"LOGIN\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1816,
+      "offset": 1847,
       "length": 16,
       "value": "\"RESET_PASSWORD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1852,
+      "offset": 1883,
       "length": 9,
       "value": "\"DEPOSIT\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1882,
+      "offset": 1913,
       "length": 10,
       "value": "\"TRANSFER\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1913,
+      "offset": 1944,
       "length": 10,
       "value": "\"WITHDRAW\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1943,
+      "offset": 1974,
       "length": 9,
       "value": "\"HISTORY\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 1998,
       "length": 4,
       "value": "\"QR\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2019,
+      "offset": 2050,
       "length": 13,
       "value": "\"SDK_PAYMENT\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2069,
+      "offset": 2100,
       "length": 7,
       "value": "\"TOPUP\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2099,
+      "offset": 2130,
       "length": 12,
       "value": "\"PHONE_CARD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2133,
+      "offset": 2164,
       "length": 11,
       "value": "\"DATA_CARD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2170,
+      "offset": 2201,
       "length": 14,
       "value": "\"SERVICE_CARD\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2204,
+      "offset": 2235,
       "length": 9,
       "value": "\"BILLING\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Actions.swift",
       "kind": "StringLiteral",
-      "offset": 2235,
+      "offset": 2266,
       "length": 11,
       "value": "\"GAME_CARD\""
     },
@@ -19715,63 +19792,70 @@
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8998,
+      "offset": 9014,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 20328,
+      "offset": 18958,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 21815,
+      "offset": 20565,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 21916,
+      "offset": 20596,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 20697,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24595,
+      "offset": 23714,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25234,
+      "offset": 24826,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25856,
+      "offset": 25448,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26464,
+      "offset": 26056,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27126,
+      "offset": 26718,
       "length": 4,
       "value": "true"
     },
@@ -20142,7 +20226,7 @@
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 40351,
+      "offset": 40362,
       "length": 4,
       "value": "true"
     },
@@ -20520,56 +20604,56 @@
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 19997,
+      "offset": 19734,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 20024,
+      "offset": 19761,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "StringLiteral",
-      "offset": 24233,
+      "offset": 23970,
       "length": 13,
       "value": "\"server_time\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "StringLiteral",
-      "offset": 24301,
+      "offset": 24038,
       "length": 12,
       "value": "\"error_code\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "StringLiteral",
-      "offset": 24343,
+      "offset": 24080,
       "length": 16,
       "value": "\"error_validate\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "StringLiteral",
-      "offset": 24233,
+      "offset": 23970,
       "length": 13,
       "value": "\"server_time\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "StringLiteral",
-      "offset": 24301,
+      "offset": 24038,
       "length": 12,
       "value": "\"error_code\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Networking\/APIRequest.swift",
       "kind": "StringLiteral",
-      "offset": 24343,
+      "offset": 24080,
       "length": 16,
       "value": "\"error_validate\""
     },
@@ -21186,930 +21270,986 @@
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
       "offset": 3841,
-      "length": 11,
-      "value": "\"iPhone8,4\""
+      "length": 12,
+      "value": "\"iPhone15,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
       "offset": 3897,
       "length": 11,
-      "value": "\"iPhone SE\""
+      "value": "\"iPhone 15\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
       "offset": 3926,
       "length": 12,
-      "value": "\"iPhone12,8\""
+      "value": "\"iPhone15,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
       "offset": 3982,
+      "length": 16,
+      "value": "\"iPhone 15 Plus\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4016,
+      "length": 12,
+      "value": "\"iPhone16,1\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4072,
+      "length": 15,
+      "value": "\"iPhone 15 Pro\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4105,
+      "length": 12,
+      "value": "\"iPhone16,2\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4161,
+      "length": 19,
+      "value": "\"iPhone 15 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4198,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4254,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4283,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 4339,
       "length": 28,
       "value": "\"iPhone SE (2nd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4028,
+      "offset": 4385,
       "length": 12,
       "value": "\"iPhone14,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4084,
+      "offset": 4441,
       "length": 28,
       "value": "\"iPhone SE (3rd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4130,
+      "offset": 4487,
       "length": 9,
       "value": "\"iPad2,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4141,
+      "offset": 4498,
       "length": 9,
       "value": "\"iPad2,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4152,
+      "offset": 4509,
       "length": 9,
       "value": "\"iPad2,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4163,
+      "offset": 4520,
       "length": 9,
       "value": "\"iPad2,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4186,
+      "offset": 4543,
       "length": 8,
       "value": "\"iPad 2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4212,
+      "offset": 4569,
       "length": 9,
       "value": "\"iPad3,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4223,
+      "offset": 4580,
       "length": 9,
       "value": "\"iPad3,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4234,
+      "offset": 4591,
       "length": 9,
       "value": "\"iPad3,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4268,
+      "offset": 4625,
       "length": 23,
       "value": "\"iPad (3rd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4309,
+      "offset": 4666,
       "length": 9,
       "value": "\"iPad3,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4320,
+      "offset": 4677,
       "length": 9,
       "value": "\"iPad3,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4331,
+      "offset": 4688,
       "length": 9,
       "value": "\"iPad3,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4365,
+      "offset": 4722,
       "length": 23,
       "value": "\"iPad (4th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4406,
+      "offset": 4763,
       "length": 10,
       "value": "\"iPad6,11\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4418,
+      "offset": 4775,
       "length": 10,
       "value": "\"iPad6,12\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4462,
+      "offset": 4819,
       "length": 23,
       "value": "\"iPad (5th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4503,
+      "offset": 4860,
       "length": 9,
       "value": "\"iPad7,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4514,
+      "offset": 4871,
       "length": 9,
       "value": "\"iPad7,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4559,
+      "offset": 4916,
       "length": 23,
       "value": "\"iPad (6th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4600,
+      "offset": 4957,
       "length": 10,
       "value": "\"iPad7,11\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4969,
       "length": 10,
       "value": "\"iPad7,12\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4656,
+      "offset": 5013,
       "length": 23,
       "value": "\"iPad (7th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4697,
+      "offset": 5054,
       "length": 10,
       "value": "\"iPad11,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4709,
+      "offset": 5066,
       "length": 10,
       "value": "\"iPad11,7\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4753,
+      "offset": 5110,
       "length": 23,
       "value": "\"iPad (8th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4794,
+      "offset": 5151,
       "length": 10,
       "value": "\"iPad12,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4806,
+      "offset": 5163,
       "length": 10,
       "value": "\"iPad12,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4850,
+      "offset": 5207,
       "length": 23,
       "value": "\"iPad (9th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4891,
+      "offset": 5248,
       "length": 11,
       "value": "\"iPad13,18\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4904,
+      "offset": 5261,
       "length": 11,
       "value": "\"iPad13,19\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4947,
+      "offset": 5304,
       "length": 24,
       "value": "\"iPad (10th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4989,
+      "offset": 5346,
       "length": 9,
       "value": "\"iPad4,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5000,
+      "offset": 5357,
       "length": 9,
       "value": "\"iPad4,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5011,
+      "offset": 5368,
       "length": 9,
       "value": "\"iPad4,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5045,
+      "offset": 5402,
       "length": 10,
       "value": "\"iPad Air\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5073,
+      "offset": 5430,
       "length": 9,
       "value": "\"iPad5,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5084,
+      "offset": 5441,
       "length": 9,
       "value": "\"iPad5,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5129,
+      "offset": 5486,
       "length": 12,
       "value": "\"iPad Air 2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5159,
+      "offset": 5516,
       "length": 10,
       "value": "\"iPad11,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5171,
+      "offset": 5528,
       "length": 10,
       "value": "\"iPad11,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5215,
+      "offset": 5572,
       "length": 27,
       "value": "\"iPad Air (3rd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5260,
+      "offset": 5617,
       "length": 10,
       "value": "\"iPad13,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5272,
+      "offset": 5629,
       "length": 10,
       "value": "\"iPad13,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5316,
+      "offset": 5673,
       "length": 27,
       "value": "\"iPad Air (4th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5361,
+      "offset": 5718,
       "length": 11,
       "value": "\"iPad13,16\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5374,
+      "offset": 5731,
       "length": 11,
       "value": "\"iPad13,17\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5417,
+      "offset": 5774,
       "length": 27,
       "value": "\"iPad Air (5th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5462,
+      "offset": 5819,
       "length": 9,
       "value": "\"iPad2,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5473,
+      "offset": 5830,
       "length": 9,
       "value": "\"iPad2,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5484,
+      "offset": 5841,
       "length": 9,
       "value": "\"iPad2,7\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5518,
+      "offset": 5875,
       "length": 11,
       "value": "\"iPad mini\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5547,
+      "offset": 5904,
       "length": 9,
       "value": "\"iPad4,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5558,
+      "offset": 5915,
       "length": 9,
       "value": "\"iPad4,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5569,
+      "offset": 5926,
       "length": 9,
       "value": "\"iPad4,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5603,
+      "offset": 5960,
       "length": 13,
       "value": "\"iPad mini 2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5634,
+      "offset": 5991,
       "length": 9,
       "value": "\"iPad4,7\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5645,
+      "offset": 6002,
       "length": 9,
       "value": "\"iPad4,8\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5656,
+      "offset": 6013,
       "length": 9,
       "value": "\"iPad4,9\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5690,
+      "offset": 6047,
       "length": 13,
       "value": "\"iPad mini 3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5721,
+      "offset": 6078,
       "length": 9,
       "value": "\"iPad5,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5732,
+      "offset": 6089,
       "length": 9,
       "value": "\"iPad5,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5777,
+      "offset": 6134,
       "length": 13,
       "value": "\"iPad mini 4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5808,
+      "offset": 6165,
       "length": 10,
       "value": "\"iPad11,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5820,
+      "offset": 6177,
       "length": 10,
       "value": "\"iPad11,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 6221,
       "length": 28,
       "value": "\"iPad mini (5th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5910,
+      "offset": 6267,
       "length": 10,
       "value": "\"iPad14,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
+      "offset": 6279,
       "length": 10,
       "value": "\"iPad14,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5966,
+      "offset": 6323,
       "length": 28,
       "value": "\"iPad mini (6th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6012,
+      "offset": 6369,
       "length": 9,
       "value": "\"iPad6,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6023,
+      "offset": 6380,
       "length": 9,
       "value": "\"iPad6,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6068,
+      "offset": 6425,
       "length": 21,
       "value": "\"iPad Pro (9.7-inch)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6107,
+      "offset": 6464,
       "length": 9,
       "value": "\"iPad7,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6118,
+      "offset": 6475,
       "length": 9,
       "value": "\"iPad7,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6163,
+      "offset": 6520,
       "length": 22,
       "value": "\"iPad Pro (10.5-inch)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6203,
+      "offset": 6560,
       "length": 9,
       "value": "\"iPad8,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6214,
+      "offset": 6571,
       "length": 9,
       "value": "\"iPad8,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6225,
+      "offset": 6582,
       "length": 9,
       "value": "\"iPad8,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6236,
+      "offset": 6593,
       "length": 9,
       "value": "\"iPad8,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6259,
+      "offset": 6616,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6314,
+      "offset": 6671,
       "length": 9,
       "value": "\"iPad8,9\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6325,
+      "offset": 6682,
       "length": 10,
       "value": "\"iPad8,10\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6370,
+      "offset": 6727,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6425,
+      "offset": 6782,
       "length": 10,
       "value": "\"iPad13,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6437,
+      "offset": 6794,
       "length": 10,
       "value": "\"iPad13,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6449,
+      "offset": 6806,
       "length": 10,
       "value": "\"iPad13,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6461,
+      "offset": 6818,
       "length": 10,
       "value": "\"iPad13,7\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6481,
+      "offset": 6838,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6536,
+      "offset": 6893,
       "length": 10,
       "value": "\"iPad14,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6548,
+      "offset": 6905,
       "length": 10,
       "value": "\"iPad14,4\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6592,
+      "offset": 6949,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6647,
+      "offset": 7004,
       "length": 9,
       "value": "\"iPad6,7\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6658,
+      "offset": 7015,
       "length": 9,
       "value": "\"iPad6,8\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6703,
+      "offset": 7060,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6760,
+      "offset": 7117,
       "length": 9,
       "value": "\"iPad7,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6771,
+      "offset": 7128,
       "length": 9,
       "value": "\"iPad7,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6816,
+      "offset": 7173,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6873,
+      "offset": 7230,
       "length": 9,
       "value": "\"iPad8,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6884,
+      "offset": 7241,
       "length": 9,
       "value": "\"iPad8,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6895,
+      "offset": 7252,
       "length": 9,
       "value": "\"iPad8,7\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6906,
+      "offset": 7263,
       "length": 9,
       "value": "\"iPad8,8\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6929,
+      "offset": 7286,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6986,
+      "offset": 7343,
       "length": 10,
       "value": "\"iPad8,11\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6998,
+      "offset": 7355,
       "length": 10,
       "value": "\"iPad8,12\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7042,
+      "offset": 7399,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7099,
+      "offset": 7456,
       "length": 10,
       "value": "\"iPad13,8\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7111,
+      "offset": 7468,
       "length": 10,
       "value": "\"iPad13,9\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7123,
+      "offset": 7480,
       "length": 11,
       "value": "\"iPad13,10\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7136,
+      "offset": 7493,
       "length": 11,
       "value": "\"iPad13,11\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7155,
+      "offset": 7512,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (5th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7212,
+      "offset": 7569,
       "length": 10,
       "value": "\"iPad14,5\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7224,
+      "offset": 7581,
       "length": 10,
       "value": "\"iPad14,6\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7268,
+      "offset": 7625,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (6th generation)\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7325,
+      "offset": 7682,
       "length": 12,
       "value": "\"AppleTV5,3\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7381,
+      "offset": 7738,
       "length": 10,
       "value": "\"Apple TV\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7409,
+      "offset": 7766,
       "length": 12,
       "value": "\"AppleTV6,2\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7465,
+      "offset": 7822,
       "length": 13,
       "value": "\"Apple TV 4K\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7496,
+      "offset": 7853,
       "length": 19,
       "value": "\"AudioAccessory1,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7552,
+      "offset": 7909,
       "length": 9,
       "value": "\"HomePod\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7579,
+      "offset": 7936,
       "length": 19,
       "value": "\"AudioAccessory5,1\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7635,
+      "offset": 7992,
       "length": 14,
       "value": "\"HomePod mini\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7667,
+      "offset": 8024,
       "length": 6,
       "value": "\"i386\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7675,
+      "offset": 8032,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7685,
+      "offset": 8042,
       "length": 7,
       "value": "\"arm64\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7723,
+      "offset": 8080,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7786,
+      "offset": 8143,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7819,
+      "offset": 8176,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/Device_Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7826,
+      "offset": 8183,
       "length": 1,
       "value": "\"\""
     },
@@ -22319,56 +22459,56 @@
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1438,
+      "offset": 1353,
       "length": 28,
       "value": "\"https:\/\/stackoverflow.com\/\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1620,
+      "offset": 1535,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1645,
+      "offset": 1560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1682,
+      "offset": 1597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1715,
+      "offset": 1630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1688,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1799,
+      "offset": 1714,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12262,
+      "offset": 12087,
       "length": 5,
       "value": "false"
     },
