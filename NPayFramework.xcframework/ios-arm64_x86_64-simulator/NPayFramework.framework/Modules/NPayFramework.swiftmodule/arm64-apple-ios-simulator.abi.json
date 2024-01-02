@@ -5320,48 +5320,6 @@
         "children": [
           {
             "kind": "Function",
-            "name": "onLoginSuccessful",
-            "printedName": "onLoginSuccessful()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13NPayFramework11LibListenerP17onLoginSuccessfulyyF",
-            "mangledName": "$s13NPayFramework11LibListenerP17onLoginSuccessfulyyF",
-            "moduleName": "NPayFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
-            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onPaySuccessful",
-            "printedName": "onPaySuccessful()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13NPayFramework11LibListenerP15onPaySuccessfulyyF",
-            "mangledName": "$s13NPayFramework11LibListenerP15onPaySuccessfulyyF",
-            "moduleName": "NPayFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
-            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "getInfoSuccess",
             "printedName": "getInfoSuccess(user:)",
             "children": [
@@ -5372,62 +5330,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13NPayFramework11LibListenerP14getInfoSuccess4userySDySSypG_tF",
-            "mangledName": "$s13NPayFramework11LibListenerP14getInfoSuccess4userySDySSypG_tF",
-            "moduleName": "NPayFramework",
-            "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
-            "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getMerchantActionSuccess",
-            "printedName": "getMerchantActionSuccess(actions:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13NPayFramework11LibListenerP24getMerchantActionSuccess7actionsySaySSG_tF",
-            "mangledName": "$s13NPayFramework11LibListenerP24getMerchantActionSuccess7actionsySaySSG_tF",
+            "usr": "s:13NPayFramework11LibListenerP14getInfoSuccess4userySS_tF",
+            "mangledName": "$s13NPayFramework11LibListenerP14getInfoSuccess4userySS_tF",
             "moduleName": "NPayFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
             "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
@@ -5575,9 +5485,6 @@
             "genericSig": "<τ_0_0 where τ_0_0 : NPayFramework.LibListener>",
             "sugared_genericSig": "<Self where Self : NPayFramework.LibListener>",
             "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -5779,26 +5686,6 @@
             "declKind": "Func",
             "usr": "s:13NPayFramework0A7ManagerC5loginyyF",
             "mangledName": "$s13NPayFramework0A7ManagerC5loginyyF",
-            "moduleName": "NPayFramework",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getActionMerchant",
-            "printedName": "getActionMerchant()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13NPayFramework0A7ManagerC17getActionMerchantyyF",
-            "mangledName": "$s13NPayFramework0A7ManagerC17getActionMerchantyyF",
             "moduleName": "NPayFramework",
             "declAttributes": [
               "AccessControl"
@@ -19764,98 +19651,98 @@
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 759,
       "length": 9,
       "value": "\"staging\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 791,
       "length": 6,
       "value": "\"beta\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 826,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 962,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9014,
+      "offset": 7769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18958,
+      "offset": 18046,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 20565,
+      "offset": 19653,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 20596,
+      "offset": 19684,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 20697,
+      "offset": 19785,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23714,
+      "offset": 22802,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24826,
+      "offset": 23914,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25448,
+      "offset": 24536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26056,
+      "offset": 25144,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/haduyphuong\/Documents\/projects\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26718,
+      "offset": 25806,
       "length": 4,
       "value": "true"
     },

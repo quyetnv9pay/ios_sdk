@@ -62,43 +62,43 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		qbn7o2PLqoc9pRi76hKvgipEiHg=
+		/DxmD8Nn87RYu0oe12CI7xVRr6o=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oeRhOHTJncLBdePanbjxhzLWqKw=
+		itpt2IA50d4Wx79WQDMMnqoLBoU=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5jwMvY9NZfmeHAAWfMYSznLWjfA=
+		K7sb45ZiFpTczFU7raWbH6gfbjo=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oeRhOHTJncLBdePanbjxhzLWqKw=
+		itpt2IA50d4Wx79WQDMMnqoLBoU=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lhVBjXdf1BacYZKqJ0VqqYySx2c=
+		5gk0WJ6bkYwjV3ND+uvsm8MhxpY=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		qbn7o2PLqoc9pRi76hKvgipEiHg=
+		/DxmD8Nn87RYu0oe12CI7xVRr6o=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0MOmk/Y8Q+d0L40JJrf/37/rdVQ=
+		EXBuNFYjBfhmEGmzEpwftK59chM=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		M2y2/af2nq3A1aY9zst3a4VQjAA=
+		CKCPcH/mE1D58K715WkTSznGh70=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0MOmk/Y8Q+d0L40JJrf/37/rdVQ=
+		EXBuNFYjBfhmEGmzEpwftK59chM=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+GeanejTltd86bIA3wR4bMpkk4Y=
+		LOFhfYWasU6Rp57wYmTFyHYbQy0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -290,70 +290,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			13c/xTKfY7gJIiqfcSD/s0XMEJnZuNQYh5Qk9UBh1wg=
+			VbcLB4+FrqR6dgHdSt1FZXZxjskNHksBCqX9ItY5QQ0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			anYI6wTfPMiADrnp1/W76a2/J8QiVRvzfOePnoC45+o=
+			IxjJ21OZ0qfsBAR/HT/qzY1d3qJOspe17ZOM+V2VldQ=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6KZnPnhQvM3rQQU2proiD8eJ2H8j+tX1xgID+sBwtoE=
+			erlQ52QiG0uFE7H4QptXF2P5EvW/Ua4tpHybtkbBYU8=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			anYI6wTfPMiADrnp1/W76a2/J8QiVRvzfOePnoC45+o=
+			IxjJ21OZ0qfsBAR/HT/qzY1d3qJOspe17ZOM+V2VldQ=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k7GzH1Pg2O0HvoXStioM/OOdbH+rSTTxEX4dMCqcc28=
+			Ig6Dn5gW3cTpXMD3Kn5DOoJxM2CM5u6IcGKBhp6VqP0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			13c/xTKfY7gJIiqfcSD/s0XMEJnZuNQYh5Qk9UBh1wg=
+			VbcLB4+FrqR6dgHdSt1FZXZxjskNHksBCqX9ItY5QQ0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNMBnJnkysG0jT4K1+HwT3wxxKRoPLsZ4EU9F2Mkr4I=
+			oMOVV5uQJIxxNMrv+I2Ce4fMJeOCEuiKpBtSvhsgtmA=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nwj/WEXCHY5bTeGkjVmejhrZuooThe5HqDmDnnPzxw0=
+			kq/0kD8sCPc2WX9/iln8GsfQ0uGuw49kQlsKIwL4at4=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KNMBnJnkysG0jT4K1+HwT3wxxKRoPLsZ4EU9F2Mkr4I=
+			oMOVV5uQJIxxNMrv+I2Ce4fMJeOCEuiKpBtSvhsgtmA=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1jv1jYKuAts+0/uTbJI3vjpJEC95tiTuDu/VwctDmbA=
+			6sbut2/HwzxBJmI6QgGOKmHj8lhSZZ6n5Kgo7HgeFVg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

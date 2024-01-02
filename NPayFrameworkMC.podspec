@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "2.0.3"
+  spec.version      = "2.0.4"
   spec.summary      = "This SDK for 9Pay's Merchant"
 
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.author             = { "“vupham9pay" => "vupt@9pay.vn" }
+  spec.author             = { "phuonghd" => "phuonghd@9pay.vn" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

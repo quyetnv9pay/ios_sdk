@@ -177,10 +177,7 @@ public enum ServiceAction : Swift.String {
   }
 }
 public protocol LibListener {
-  func onLoginSuccessful()
-  func onPaySuccessful()
-  func getInfoSuccess(user: [Swift.String : Any])
-  func getMerchantActionSuccess(actions: [Swift.String])
+  func getInfoSuccess(user: Swift.String)
   func onLogoutSuccessful()
   func onError(errorCode: Swift.Int, message: Swift.String)
   func onCloseSDK()
@@ -191,7 +188,6 @@ public class NPayManager {
   public var delegate: NPayFramework.LibListener?
   public init(vController: UIKit.UIViewController, sdkCfgs: NPayFramework.SDKConfigs)
   public func login()
-  public func getActionMerchant()
   public func openWallet(action: Swift.String)
   public func openSDKWithAction(action: NPayFramework.ServiceAction, vController: UIKit.UIViewController)
   public func openPaymentOnSDK(orderDataString: Swift.String!, vController: UIKit.UIViewController, paymentMethod: NPayFramework.PaymentMethod = .WALLET, isShowResultScreen: Swift.Bool = true)
