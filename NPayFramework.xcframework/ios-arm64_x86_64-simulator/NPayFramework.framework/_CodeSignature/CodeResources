@@ -6,19 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		9qP0lsWgD50xOrfPr/uBOS0MFz4=
+		fWrtiXKcauOtbwAuAdWXzNrnAdw=
 		</data>
 		<key>BankTVC.nib</key>
 		<data>
 		pHgekNoAIwkgDK8pzT7QZ6hAL/U=
 		</data>
-		<key>BrandCVC.nib/objects-12.3+.nib</key>
+		<key>BrandCVC.nib</key>
 		<data>
 		/SC8tlScaXuiw5rlCqsVV8+f4lw=
-		</data>
-		<key>BrandCVC.nib/runtime.nib</key>
-		<data>
-		QdqdvXcQwCOMM3iTlSpeqnWqxeM=
 		</data>
 		<key>CommonAlertVC.nib</key>
 		<data>
@@ -32,17 +28,13 @@
 		<data>
 		ZEvA1I7miKb1vxIQB0Oq6nmM+HI=
 		</data>
-		<key>HintPassCVC.nib/objects-12.3+.nib</key>
+		<key>HintPassCVC.nib</key>
 		<data>
 		+aFL+iKBq0WTmZ9baG9uIjMO4is=
 		</data>
-		<key>HintPassCVC.nib/runtime.nib</key>
-		<data>
-		XxZyAe4YZrPVqYJS6uLITN5Vs3A=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		vNapLmP7dj5N1qdlh5N8p1jReRs=
+		cNknU3uGoRcrheN1VqfOkpdLFg8=
 		</data>
 		<key>InforOrderShimmer.nib</key>
 		<data>
@@ -66,19 +58,19 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		itpt2IA50d4Wx79WQDMMnqoLBoU=
+		HUI6L8lldQcjYCk4VZoDJDuI25k=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		K7sb45ZiFpTczFU7raWbH6gfbjo=
+		5DGxKg8S58/IwuslApRth5DBIc8=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		itpt2IA50d4Wx79WQDMMnqoLBoU=
+		HUI6L8lldQcjYCk4VZoDJDuI25k=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5gk0WJ6bkYwjV3ND+uvsm8MhxpY=
+		iXH0J7tRXG4EgvI3j0O7Mt256kA=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -86,19 +78,19 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EXBuNFYjBfhmEGmzEpwftK59chM=
+		YdPtiymDoFOyfL9VzW5D0IBVQaQ=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CKCPcH/mE1D58K715WkTSznGh70=
+		ORVxolfMA+57k4phgfk/O4fy8mQ=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EXBuNFYjBfhmEGmzEpwftK59chM=
+		YdPtiymDoFOyfL9VzW5D0IBVQaQ=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LOFhfYWasU6Rp57wYmTFyHYbQy0=
+		Y3UGAT8vV3ZWDy2AHMdJigDzMKY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -199,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CUn6v7sLPaAVzNLBpa+DxRJGf6cELEHhHETyRM7OETg=
+			sx4hw0nl/uwPPM7xhWbCRRcsXc60GUcF9ZEQfh/2WPQ=
 			</data>
 		</dict>
 		<key>BankTVC.nib</key>
@@ -209,18 +201,11 @@
 			nMQbiJFdx7QChVRfVpM2mBYMAB91yhTFFl9muXbJpA4=
 			</data>
 		</dict>
-		<key>BrandCVC.nib/objects-12.3+.nib</key>
+		<key>BrandCVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			W9MPKBrLXncEpyAYqLq1jKGNfxt8cNnNhhDmKgNEyAg=
-			</data>
-		</dict>
-		<key>BrandCVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MBpUC7XQYE1Bqu6KxogIQ1xbEGM/i2qbWZ/MBIGo7R8=
 			</data>
 		</dict>
 		<key>CommonAlertVC.nib</key>
@@ -244,18 +229,11 @@
 			9ydJtppk0LiRxuW7FZXpUuC8qQLm3y7tW73dyLkjXtY=
 			</data>
 		</dict>
-		<key>HintPassCVC.nib/objects-12.3+.nib</key>
+		<key>HintPassCVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			sCI4+wKvzyc0ACN/B2OnTeJVJXzuhCt4w7Vo7edspOE=
-			</data>
-		</dict>
-		<key>HintPassCVC.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			48Rb506maCModA/GZpA9oCb0WoUj+usyPSHPxaJSRAg=
 			</data>
 		</dict>
 		<key>InforOrderShimmer.nib</key>
@@ -297,28 +275,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IxjJ21OZ0qfsBAR/HT/qzY1d3qJOspe17ZOM+V2VldQ=
+			WR5KqH7XPPeFPiFiE+QEqf3iK8cpcycJKyukwbA3dic=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			erlQ52QiG0uFE7H4QptXF2P5EvW/Ua4tpHybtkbBYU8=
+			88ZE1OeRMCOgnvcUZZq9MIFE2pOWGRw9xFGth4YB5IU=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IxjJ21OZ0qfsBAR/HT/qzY1d3qJOspe17ZOM+V2VldQ=
+			WR5KqH7XPPeFPiFiE+QEqf3iK8cpcycJKyukwbA3dic=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ig6Dn5gW3cTpXMD3Kn5DOoJxM2CM5u6IcGKBhp6VqP0=
+			/fnU/SGDi0ryAktoOymrIWwIZwUHmRb2za6biounC6A=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -332,28 +310,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oMOVV5uQJIxxNMrv+I2Ce4fMJeOCEuiKpBtSvhsgtmA=
+			K8QTNTS7J40+3gE0GRdvGQIBlvdSDKy+kYcu9+VAIGM=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kq/0kD8sCPc2WX9/iln8GsfQ0uGuw49kQlsKIwL4at4=
+			dJjnjKamgVcaHqP7aytpU+rwGtcDvUCuSeIi+K6f+vU=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oMOVV5uQJIxxNMrv+I2Ce4fMJeOCEuiKpBtSvhsgtmA=
+			K8QTNTS7J40+3gE0GRdvGQIBlvdSDKy+kYcu9+VAIGM=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6sbut2/HwzxBJmI6QgGOKmHj8lhSZZ6n5Kgo7HgeFVg=
+			YaaFYNK8l3fRW2Vo71ETqC2xzxyreIgV8wkyUkpXerA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
