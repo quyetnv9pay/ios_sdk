@@ -1,7 +1,7 @@
 framework module NPayFramework {
   umbrella header "NPayFramework.h"
-
   export *
+
   module * { export * }
 }
 

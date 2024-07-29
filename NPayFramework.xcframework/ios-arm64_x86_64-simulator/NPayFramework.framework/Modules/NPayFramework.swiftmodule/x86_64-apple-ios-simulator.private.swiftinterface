@@ -1,19 +1,21 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name NPayFramework
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name NPayFramework
 import AVFoundation
 import CryptoSwift
+import DeveloperToolsSupport
 import Foundation
 import ImageIO
 @_exported import NPayFramework
 import Photos
 import Security
 import Swift
+import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 extension UIKit.UIFont {
   public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
   public static func loadFonts()
@@ -185,7 +187,7 @@ public protocol LibListener {
   func backToAppFrom(action: Swift.String)
 }
 public class NPayManager {
-  public var delegate: NPayFramework.LibListener?
+  public var delegate: (any NPayFramework.LibListener)?
   public init(vController: UIKit.UIViewController, sdkCfgs: NPayFramework.SDKConfigs)
   public func login()
   public func openWallet(action: Swift.String)
