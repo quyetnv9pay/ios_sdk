@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LjSebf4jSJyODwCPq1I22W8Enbg=
+		H8ajsuskw4BeJ0uRUNDCfWxZH3Y=
 		</data>
 		<key>BankTVC.nib</key>
 		<data>
@@ -16,9 +16,13 @@
 		<data>
 		ZBN+kIQm8dHhn9RcLoO3wQwQJYw=
 		</data>
+		<key>BtsPasswordVC.nib</key>
+		<data>
+		KIav5SLb8HeUmdRYWEq/cp8wq/w=
+		</data>
 		<key>CommonAlertVC.nib</key>
 		<data>
-		HpQCER7AEYprT0zU/aPyMyQ5/is=
+		NvDMDdmKmNPfcznq6WxiGscwYUo=
 		</data>
 		<key>Headers/NPayFramework-Swift.h</key>
 		<data>
@@ -42,11 +46,11 @@
 		</data>
 		<key>InputCardInforVC.nib/objects-14.0+.nib</key>
 		<data>
-		aKlNkBUaDG0l2Eev0418tn3zKoI=
+		sO4AoDaRf08/TYUKUQXNRSOiM6k=
 		</data>
 		<key>InputCardInforVC.nib/runtime.nib</key>
 		<data>
-		aKlNkBUaDG0l2Eev0418tn3zKoI=
+		sO4AoDaRf08/TYUKUQXNRSOiM6k=
 		</data>
 		<key>LinkedBankTVC.nib</key>
 		<data>
@@ -54,7 +58,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tykpE3WF3h75IA7FKnRtbs3UukM=
+		LVX77L0aVR3DUi2Iz0zQU2FjJzA=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +66,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jd8hLgLBDyhUCUYGkNfMniubbQM=
+		G+0gbjK2DPDR6yyM0IriBnnuOxQ=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -70,11 +74,11 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f5+wx6I8uYaNrTiIe0siY+PjD2Y=
+		+QOBkZAecJogXcZ3qq6UK9R1gcw=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tykpE3WF3h75IA7FKnRtbs3UukM=
+		LVX77L0aVR3DUi2Iz0zQU2FjJzA=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kwUjEWgIqh8jIg3ZhySP7el+hQA=
+		K/Pyv/qfQEyykTwxOozavEfraQY=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -90,7 +94,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		efx/NHQd3Y5XORp3yOAXu0dD7V8=
+		nu6M8L7iEtrR9o4xTMaDVazVWec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,7 +126,7 @@
 		</data>
 		<key>PasswordView.nib</key>
 		<data>
-		Df/9GexzIlaS0Ii/7q7tCHT8v9w=
+		jh7cJcYrfBA3+DGlWVmKhUKwpbM=
 		</data>
 		<key>PaymentMethodTVC.nib</key>
 		<data>
@@ -166,11 +170,11 @@
 		</data>
 		<key>VerifyPasswordVC.nib/objects-14.0+.nib</key>
 		<data>
-		6kS+3QnKhvBsx85ppbqL9puc7GQ=
+		02qU93Fc2ceRCg7qtk8BzdYQAFk=
 		</data>
 		<key>VerifyPasswordVC.nib/runtime.nib</key>
 		<data>
-		6kS+3QnKhvBsx85ppbqL9puc7GQ=
+		02qU93Fc2ceRCg7qtk8BzdYQAFk=
 		</data>
 		<key>app_loading.json</key>
 		<data>
@@ -191,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l2NJAD0h/ivPjn9gQr0dk1VtUUum+K2nOtLZgM2qQN4=
+			mkxPzTqNF8pRAiBc+btXhsFOsxGgzuvnL1KcU6IIVCE=
 			</data>
 		</dict>
 		<key>BankTVC.nib</key>
@@ -208,11 +212,18 @@
 			CfC0mlAqLyGZwkzbWQrJGtHJX4utRLpgwYRkdFtCLN4=
 			</data>
 		</dict>
+		<key>BtsPasswordVC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eiMZvBwbxHwlRul7ACTQBf5AQ8up6bn7Anmv+TXGTkc=
+			</data>
+		</dict>
 		<key>CommonAlertVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+f/LDcXOzZCsxUQ8oIg7Q1noKPnj6b7Om40zdliAvNw=
+			B7YB89oiZOAiCmDNPMggkYA/d7fX9JZapwD+bt3ZljU=
 			</data>
 		</dict>
 		<key>Headers/NPayFramework-Swift.h</key>
@@ -247,14 +258,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3aU9Y7hWzIg7CbHEsjPtypDzOvT2PNlt2xMb7ekRS/8=
+			sohhkRrruYp8ppG17dpXnPeMD1Gs5oE/HkruJetBkRM=
 			</data>
 		</dict>
 		<key>InputCardInforVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3aU9Y7hWzIg7CbHEsjPtypDzOvT2PNlt2xMb7ekRS/8=
+			sohhkRrruYp8ppG17dpXnPeMD1Gs5oE/HkruJetBkRM=
 			</data>
 		</dict>
 		<key>LinkedBankTVC.nib</key>
@@ -268,7 +279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w4/2pROmLmTC1InOUK6g3x4B1qYVyFMFJVc20Gl5od0=
+			xm+U7T/MmuAARQ0e/0lbqQiLBsGAG0VlchkuuGhTDSE=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -282,7 +293,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7yNXfi/4p3MXCyvgdSi5XoZAPbl3nIZxpF6EaV6a4p4=
+			XH9Zwuhkpr9+PA+x8eeC9yE899r1CEfKrX2yVXBN3lQ=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -296,14 +307,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NeNmd3EZWlSy1G7r+mqO9EDwT2APNtY7FDgsJ/p9BVg=
+			5C77vQzCC872pKvKJ006NAGkciW7CRmi99/8cJBYbas=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w4/2pROmLmTC1InOUK6g3x4B1qYVyFMFJVc20Gl5od0=
+			xm+U7T/MmuAARQ0e/0lbqQiLBsGAG0VlchkuuGhTDSE=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -317,7 +328,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+A+bLdZq7hdZMrBeUVFLq5g6Q6Rq1rtSaE59c9fY3O8=
+			SdIhPmQmBHW40MFNnCl3NfoQNdddJLAMeaY9RI++DbY=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
@@ -331,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Upm3xKwoyBsc8WqggLrK0pEGPJhXD/Z8cji2I74QtDE=
+			C+4rnKljvjS6xUv7XbJn3qXFwkUkPrQy765l0UuVGsA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -387,7 +398,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2QJO65+TYeUctb8b4b43BPAgzvue+K9nNDD8GA4OPog=
+			WydIeQLIj3/SrdJk0nAcadGQp8lVCb1Q86MXJCtSoOE=
 			</data>
 		</dict>
 		<key>PaymentMethodTVC.nib</key>
@@ -464,14 +475,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4/o2V1wCShUhbWcnZQsZqOC6JhPfX0VstZ5ebXfO54=
+			mAxckkayHXLQiUXEkEOOn/32oDPCe5kMFdbyE7hBB6M=
 			</data>
 		</dict>
 		<key>VerifyPasswordVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4/o2V1wCShUhbWcnZQsZqOC6JhPfX0VstZ5ebXfO54=
+			mAxckkayHXLQiUXEkEOOn/32oDPCe5kMFdbyE7hBB6M=
 			</data>
 		</dict>
 		<key>app_loading.json</key>
