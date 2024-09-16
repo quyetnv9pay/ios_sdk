@@ -16314,6 +16314,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -22465,7 +22472,7 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12087,
+      "offset": 16212,
       "length": 5,
       "value": "false"
     },
@@ -22475,6 +22482,20 @@
       "offset": 783,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/BtsPasswordVC\/BtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 524,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/BtsPasswordVC\/BtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 561,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
@@ -22493,77 +22514,84 @@
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1012,
+      "length": 14,
+      "value": "\"bts_password\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1151,
       "length": 10,
       "value": "\"ic_check\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1141,
+      "offset": 1288,
       "length": 11,
       "value": "\"ic_check2\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1277,
+      "offset": 1424,
       "length": 10,
       "value": "\"ic_clear\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1414,
+      "offset": 1561,
       "length": 11,
       "value": "\"ic_failed\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1554,
+      "offset": 1701,
       "length": 12,
       "value": "\"ic_failed2\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1838,
       "length": 10,
       "value": "\"ic_infor\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1833,
+      "offset": 1980,
       "length": 14,
       "value": "\"ic_non_check\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 1981,
+      "offset": 2128,
       "length": 15,
       "value": "\"ic_non_check2\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2125,
+      "offset": 2272,
       "length": 12,
       "value": "\"ic_success\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2264,
+      "offset": 2411,
       "length": 11,
       "value": "\"ic_ticked\""
     },
     {
       "filePath": "\/Users\/vihoang\/Library\/Developer\/Xcode\/DerivedData\/NPayFramework-evnjikhqstnnzwdcnehzawphidum\/Build\/Intermediates.noindex\/ArchiveIntermediates\/NPayFramework\/IntermediateBuildFilesPath\/NPayFramework.build\/Release-iphoneos\/NPayFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 2549,
       "length": 11,
       "value": "\"logo_9pay\""
     }
