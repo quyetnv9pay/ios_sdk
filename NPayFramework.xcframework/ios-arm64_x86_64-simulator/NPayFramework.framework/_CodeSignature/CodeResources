@@ -18,7 +18,7 @@
 		</data>
 		<key>BtsPasswordVC.nib</key>
 		<data>
-		KIav5SLb8HeUmdRYWEq/cp8wq/w=
+		py2irBzPSav6dNmUqpKDrCvJqV8=
 		</data>
 		<key>CommonAlertVC.nib</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>InputCardInforVC.nib/objects-14.0+.nib</key>
 		<data>
-		sO4AoDaRf08/TYUKUQXNRSOiM6k=
+		aKlNkBUaDG0l2Eev0418tn3zKoI=
 		</data>
 		<key>InputCardInforVC.nib/runtime.nib</key>
 		<data>
-		sO4AoDaRf08/TYUKUQXNRSOiM6k=
+		aKlNkBUaDG0l2Eev0418tn3zKoI=
 		</data>
 		<key>LinkedBankTVC.nib</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LVX77L0aVR3DUi2Iz0zQU2FjJzA=
+		mnDWYIgW9TpwTbLiOwhYfuoByxM=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+QOBkZAecJogXcZ3qq6UK9R1gcw=
+		kNLQ39umZzGAYn9TPq+cg2nl9LU=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LVX77L0aVR3DUi2Iz0zQU2FjJzA=
+		mnDWYIgW9TpwTbLiOwhYfuoByxM=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nu6M8L7iEtrR9o4xTMaDVazVWec=
+		M7vLnR6GFoDhuaoN3xAQUD5HMxg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -216,7 +216,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eiMZvBwbxHwlRul7ACTQBf5AQ8up6bn7Anmv+TXGTkc=
+			v3826IC79Pa03C3/cg7AqGH71t9Fvey0L9P3ozu9lNo=
 			</data>
 		</dict>
 		<key>CommonAlertVC.nib</key>
@@ -258,14 +258,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sohhkRrruYp8ppG17dpXnPeMD1Gs5oE/HkruJetBkRM=
+			3aU9Y7hWzIg7CbHEsjPtypDzOvT2PNlt2xMb7ekRS/8=
 			</data>
 		</dict>
 		<key>InputCardInforVC.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sohhkRrruYp8ppG17dpXnPeMD1Gs5oE/HkruJetBkRM=
+			3aU9Y7hWzIg7CbHEsjPtypDzOvT2PNlt2xMb7ekRS/8=
 			</data>
 		</dict>
 		<key>LinkedBankTVC.nib</key>
@@ -279,7 +279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xm+U7T/MmuAARQ0e/0lbqQiLBsGAG0VlchkuuGhTDSE=
+			RJP/nOKD4MkhbfzQt1diccKrpRWuQPV6eMmbxLihVDI=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -307,14 +307,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5C77vQzCC872pKvKJ006NAGkciW7CRmi99/8cJBYbas=
+			GWO20OfP8IzMRhCIFHzWTHBKRf2pkfU9g0OOTETptCc=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xm+U7T/MmuAARQ0e/0lbqQiLBsGAG0VlchkuuGhTDSE=
+			RJP/nOKD4MkhbfzQt1diccKrpRWuQPV6eMmbxLihVDI=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -342,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+4rnKljvjS6xUv7XbJn3qXFwkUkPrQy765l0UuVGsA=
+			5+n5TMBBf420NaFIwNAWACYEGjMltonMQk/lKUGu0Dk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
