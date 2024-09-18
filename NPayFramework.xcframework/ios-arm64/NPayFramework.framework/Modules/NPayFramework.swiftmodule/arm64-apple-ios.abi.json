@@ -19133,91 +19133,91 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 2772,
+      "offset": 2852,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3491,
+      "offset": 3571,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3522,
+      "offset": 3602,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 3536,
+      "offset": 3616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 3556,
+      "offset": 3636,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "StringLiteral",
-      "offset": 10683,
+      "offset": 10763,
       "length": 11,
       "value": "\"ic_check2\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "StringLiteral",
-      "offset": 10782,
+      "offset": 10862,
       "length": 15,
       "value": "\"ic_non_check2\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 10951,
+      "offset": 11031,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 10898,
+      "offset": 10978,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "StringLiteral",
-      "offset": 11746,
+      "offset": 11826,
       "length": 11,
       "value": "\"ic_check2\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "StringLiteral",
-      "offset": 11845,
+      "offset": 11925,
       "length": 15,
       "value": "\"ic_non_check2\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 12014,
+      "offset": 12094,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Extensions\/VCExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 11961,
+      "offset": 12041,
       "length": 5,
       "value": "false"
     },
@@ -19952,7 +19952,7 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Views\/PasswordView\/PasswordView.swift",
       "kind": "IntegerLiteral",
-      "offset": 672,
+      "offset": 691,
       "length": 1,
       "value": "6"
     },
@@ -22486,14 +22486,14 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/BtsPasswordVC\/BtsPasswordVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 524,
+      "offset": 639,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/BtsPasswordVC\/BtsPasswordVC.swift",
       "kind": "StringLiteral",
-      "offset": 561,
+      "offset": 676,
       "length": 2,
       "value": "\"\""
     },
