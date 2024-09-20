@@ -6,7 +6,6 @@ import CryptoSwift
 import DeveloperToolsSupport
 import Foundation
 import ImageIO
-import Lottie
 @_exported import NPayFramework
 import Photos
 import Security
