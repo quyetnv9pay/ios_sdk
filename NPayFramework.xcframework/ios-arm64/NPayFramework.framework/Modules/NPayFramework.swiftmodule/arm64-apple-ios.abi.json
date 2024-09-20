@@ -111,16 +111,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NPayFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -244,6 +234,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "NPayFramework",
         "declAttributes": [
@@ -2094,16 +2094,6 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NPayFramework",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -16053,13 +16043,6 @@
       },
       {
         "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
-        "declKind": "Import",
-        "moduleName": "NPayFramework"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -16071,6 +16054,16 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -17161,293 +17154,6 @@
       "offset": 110,
       "length": 13,
       "value": "\"NPayFramework.CommonAlertVC\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 434,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 471,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 580,
-      "length": 14,
-      "value": "\"bts_password\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 753,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 813,
-      "length": 2,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 828,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 973,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1032,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1245,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1288,
-      "length": 5,
-      "value": "0.320"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1302,
-      "length": 5,
-      "value": "0.342"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "FloatLiteral",
-      "offset": 1315,
-      "length": 5,
-      "value": "0.363"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1329,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1353,
-      "length": 31,
-      "value": "\"Vui lòng nhập mật khẩu\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1419,
-      "length": 13,
-      "value": "\"SVN-Poppins\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1440,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1623,
-      "length": 21,
-      "value": "\"Quên mật khẩu?\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 1788,
-      "length": 13,
-      "value": "\"SVN-Poppins\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1809,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1982,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2134,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2272,
-      "length": 13,
-      "value": "\"SVN-Poppins\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2293,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2402,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2429,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2569,
-      "length": 14,
-      "value": "\"Tiếp tục\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2803,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 2852,
-      "length": 21,
-      "value": "\"SVN-PoppinsSemiBold\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2881,
-      "length": 2,
-      "value": "14"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3036,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3098,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3113,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3294,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3353,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9792,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9816,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 9870,
-      "length": 17,
-      "value": "\"Your title here\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 9918,
-      "length": 28,
-      "value": "\"Lorem ipsum dolor sit amet\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 9974,
-      "length": 125,
-      "value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 10126,
-      "length": 630,
-      "value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/DemoBtsPasswordVC.swift",
-      "kind": "StringLiteral",
-      "offset": 10801,
-      "length": 13,
-      "value": "\"sampleImage\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/OrderInfoModel.swift",
@@ -18584,90 +18290,6 @@
       "value": "\"public_key\""
     },
     {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 817,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 817,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 817,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "StringLiteral",
-      "offset": 1771,
-      "length": 105,
-      "value": "\"WARNING - Did set iconImage when the iconType is set to IconType.font. The image will not be displayed.\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2121,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "StringLiteral",
-      "offset": 2992,
-      "length": 128,
-      "value": "\"WARNING - Did set iconText when the iconType is set to IconType.image. The icon with the specified text will not be displayed.\""
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3988,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4270,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4553,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "FloatLiteral",
-      "offset": 4951,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "FloatLiteral",
-      "offset": 5066,
-      "length": 5,
-      "value": "180.0"
-    },
-    {
-      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4827,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Views\/BottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 359,
@@ -18792,6 +18414,90 @@
       "offset": 2536,
       "length": 2,
       "value": "80"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 817,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "StringLiteral",
+      "offset": 1771,
+      "length": 105,
+      "value": "\"WARNING - Did set iconImage when the iconType is set to IconType.font. The image will not be displayed.\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2121,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 128,
+      "value": "\"WARNING - Did set iconText when the iconType is set to IconType.image. The icon with the specified text will not be displayed.\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3988,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4270,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4553,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "FloatLiteral",
+      "offset": 4951,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "FloatLiteral",
+      "offset": 5066,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/TextField\/SkyFloatingLabelTextField\/SkyFloatingLabelTextFieldWithIcon.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4827,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Model\/UserInfoModel.swift",
@@ -22863,56 +22569,56 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1367,
+      "offset": 1353,
       "length": 28,
       "value": "\"https:\/\/stackoverflow.com\/\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1549,
+      "offset": 1535,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1574,
+      "offset": 1560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1611,
+      "offset": 1597,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1644,
+      "offset": 1630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1688,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 1714,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15537,
+      "offset": 15509,
       "length": 5,
       "value": "false"
     },
@@ -22922,6 +22628,293 @@
       "offset": 783,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 14,
+      "value": "\"bts_password\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 828,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 973,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1032,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1245,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1288,
+      "length": 5,
+      "value": "0.320"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1302,
+      "length": 5,
+      "value": "0.342"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1315,
+      "length": 5,
+      "value": "0.363"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1329,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1353,
+      "length": 31,
+      "value": "\"Vui lòng nhập mật khẩu\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 13,
+      "value": "\"SVN-Poppins\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1440,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1623,
+      "length": 21,
+      "value": "\"Quên mật khẩu?\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1788,
+      "length": 13,
+      "value": "\"SVN-Poppins\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1809,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1982,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
+      "length": 13,
+      "value": "\"SVN-Poppins\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2293,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2429,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2569,
+      "length": 14,
+      "value": "\"Tiếp tục\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2803,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2852,
+      "length": 21,
+      "value": "\"SVN-PoppinsSemiBold\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2881,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3098,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3113,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3294,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3353,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9792,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9870,
+      "length": 17,
+      "value": "\"Your title here\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9918,
+      "length": 28,
+      "value": "\"Lorem ipsum dolor sit amet\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9974,
+      "length": 125,
+      "value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10126,
+      "length": 630,
+      "value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InforOrderVC\/DemoBtsPasswordVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10801,
+      "length": 13,
+      "value": "\"sampleImage\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/BtsPasswordVC\/BtsPasswordVC.swift",
