@@ -11465,6 +11465,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NPayFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -16038,6 +16048,13 @@
         "kind": "Import",
         "name": "Photos",
         "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "NPayFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
         "declKind": "Import",
         "moduleName": "NPayFramework"
       },
@@ -22569,56 +22586,56 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1367,
       "length": 28,
       "value": "\"https:\/\/stackoverflow.com\/\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1535,
+      "offset": 1549,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1560,
+      "offset": 1574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1597,
+      "offset": 1611,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1630,
+      "offset": 1644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1688,
+      "offset": 1702,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "StringLiteral",
-      "offset": 1714,
+      "offset": 1728,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15509,
+      "offset": 16230,
       "length": 5,
       "value": "false"
     },
