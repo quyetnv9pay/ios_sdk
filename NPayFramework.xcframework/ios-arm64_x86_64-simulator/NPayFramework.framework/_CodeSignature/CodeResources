@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Pcgqo89w/MwYfrJBWlV0u4HMzvc=
+		Md6R2/Qzdb4fxmMOmWvvUuClfPg=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GJFpXvHABFgWDYhosGdkVt8t/YE=
+		ugiKNMNDDPDQAB7EHK0hh6hmwk0=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,19 +70,19 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GJFpXvHABFgWDYhosGdkVt8t/YE=
+		ugiKNMNDDPDQAB7EHK0hh6hmwk0=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3vdnSh/kR0PPKuTerUYa3su/ZAk=
+		+OwQe3V8kpBUhcYdI1XgElu/ouY=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Pcgqo89w/MwYfrJBWlV0u4HMzvc=
+		Md6R2/Qzdb4fxmMOmWvvUuClfPg=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OxKSbPGiabWG6G+U0yx2cNwm2Oo=
+		3wLuGcdpvAX/eOfoIZ/jA76hmnc=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OxKSbPGiabWG6G+U0yx2cNwm2Oo=
+		3wLuGcdpvAX/eOfoIZ/jA76hmnc=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cPqg58BxIVp/qf+GbERuKu7jEGM=
+		3ZqsvNkgAZfUdxwrdzyBiXrzQhw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -175,6 +175,10 @@
 		<key>VerifyPasswordVC.nib/runtime.nib</key>
 		<data>
 		02qU93Fc2ceRCg7qtk8BzdYQAFk=
+		</data>
+		<key>animation_webview.json</key>
+		<data>
+		MaH3oP+IxMLep1NOcW0OkbJfzG8=
 		</data>
 		<key>app_loading.json</key>
 		<data>
@@ -279,14 +283,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tl+JNi8siKfJh0G0xW26MyTLB9itN4Y1BT2K6s9aWM4=
+			P50WdS00FCo+fmCMF59KlgJcG9By/Y/lr8Zd4VP9qXE=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cx3ytbR733ZUyCrpA9/rCAb+vFrHd8ATD7ff4VMkiWI=
+			bO857gqchRr02sKyAbdU3tNmFoWUnXNEH53N4DMIp/I=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -300,28 +304,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cx3ytbR733ZUyCrpA9/rCAb+vFrHd8ATD7ff4VMkiWI=
+			bO857gqchRr02sKyAbdU3tNmFoWUnXNEH53N4DMIp/I=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IPOvL0Sjlf/iaDkjelRz6DeLtmR/0TOQeLnCpSyEouk=
+			5GQFWJ7/E1lNfLrLKstDUF3pA4sBWBteqRipWxmMabc=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tl+JNi8siKfJh0G0xW26MyTLB9itN4Y1BT2K6s9aWM4=
+			P50WdS00FCo+fmCMF59KlgJcG9By/Y/lr8Zd4VP9qXE=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9mS9lPw+gmKV7+uqV2ziTg7KED5F+PaHjFpL5x7d9Bw=
+			WiujIO+mcG1OBPl8PH40DtjuRNaeg1UKvBTYhduUG/0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -335,14 +339,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9mS9lPw+gmKV7+uqV2ziTg7KED5F+PaHjFpL5x7d9Bw=
+			WiujIO+mcG1OBPl8PH40DtjuRNaeg1UKvBTYhduUG/0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBJlNssHUYSUUH52HVraO6wCnpk3vFKX6IidGpW+YX4=
+			DSSkev+/kvxGjH6TogiX7XFmEXSXqfMgg/smD29E9mQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -483,6 +487,13 @@
 			<key>hash2</key>
 			<data>
 			mAxckkayHXLQiUXEkEOOn/32oDPCe5kMFdbyE7hBB6M=
+			</data>
+		</dict>
+		<key>animation_webview.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q3fgRkljRtSAD9Lgo2SN1J7LAm2LjYzqPPn4jYRTVRQ=
 			</data>
 		</dict>
 		<key>app_loading.json</key>
