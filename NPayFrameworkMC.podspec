@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "2.0.17-alpha.1"
+  spec.version      = "2.0.17-alpha.2"
   spec.summary      = "This SDK for 9Pay's Merchant"
 
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.ios.vendored_frameworks = 'NPayFramework.xcframework'
   spec.dependency "CryptoSwift", "1.8"
-  spec.dependency 'lottie-ios', '~> 4.1.0'
+  spec.dependency 'lottie-ios', '4.1.3'
   # spec.public_header_files = "Classes/**/*.h"
 
 
