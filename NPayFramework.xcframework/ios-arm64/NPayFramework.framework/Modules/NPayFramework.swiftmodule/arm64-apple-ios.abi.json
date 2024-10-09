@@ -5947,7 +5947,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(merchantCode:secretKey:uid:brandColor:env:)",
+            "printedName": "init(merchantCode:secretKey:uid:brandColor:env:phoneNumber:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5992,11 +5992,25 @@
                 "name": "EnvironmentKey",
                 "printedName": "NPayFramework.EnvironmentKey",
                 "usr": "s:13NPayFramework14EnvironmentKeyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13NPayFramework10SDKConfigsC12merchantCode9secretKey3uid10brandColor3envACSS_S2SSgSSAA011EnvironmentG0Otcfc",
-            "mangledName": "$s13NPayFramework10SDKConfigsC12merchantCode9secretKey3uid10brandColor3envACSS_S2SSgSSAA011EnvironmentG0Otcfc",
+            "usr": "s:13NPayFramework10SDKConfigsC12merchantCode9secretKey3uid10brandColor3env11phoneNumberACSS_S2SSgSSAA011EnvironmentG0OAJtcfc",
+            "mangledName": "$s13NPayFramework10SDKConfigsC12merchantCode9secretKey3uid10brandColor3env11phoneNumberACSS_S2SSgSSAA011EnvironmentG0OAJtcfc",
             "moduleName": "NPayFramework",
             "declAttributes": [
               "AccessControl"
@@ -6081,6 +6095,27 @@
             "declKind": "Func",
             "usr": "s:13NPayFramework10SDKConfigsC13getBrandColorSSyF",
             "mangledName": "$s13NPayFramework10SDKConfigsC13getBrandColorSSyF",
+            "moduleName": "NPayFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhoneNumber",
+            "printedName": "getPhoneNumber()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NPayFramework10SDKConfigsC14getPhoneNumberSSyF",
+            "mangledName": "$s13NPayFramework10SDKConfigsC14getPhoneNumberSSyF",
             "moduleName": "NPayFramework",
             "declAttributes": [
               "AccessControl"
@@ -19933,56 +19968,63 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 19653,
+      "offset": 19713,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 19684,
+      "offset": 19744,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "StringLiteral",
-      "offset": 19785,
+      "offset": 19845,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
+      "kind": "StringLiteral",
+      "offset": 19879,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 22802,
+      "offset": 23069,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23914,
+      "offset": 24181,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24536,
+      "offset": 24803,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25144,
+      "offset": 25411,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/NPayManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25806,
+      "offset": 26073,
       "length": 4,
       "value": "true"
     },
@@ -22635,7 +22677,7 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16221,
+      "offset": 16404,
       "length": 5,
       "value": "false"
     },
