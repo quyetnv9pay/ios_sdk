@@ -17857,412 +17857,412 @@
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 723,
-      "length": 30,
-      "value": "\"https:\/\/stg-sdk.9pay.mobi\/v1\""
+      "length": 27,
+      "value": "\"http:\/\/10.1.24.13:3001\/v1\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 784,
       "length": 22,
       "value": "\"https:\/\/shop.9pay.vn\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 838,
       "length": 27,
       "value": "\"https:\/\/sand-shop.9pay.vn\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 900,
+      "offset": 897,
       "length": 28,
       "value": "\"https:\/\/stg-shop.9pay.mobi\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 975,
+      "offset": 972,
       "length": 27,
       "value": "\"https:\/\/stg-api.9pay.mobi\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1030,
       "length": 26,
       "value": "\"https:\/\/sand-api.9pay.vn\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1084,
       "length": 21,
       "value": "\"https:\/\/api.9pay.vn\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1146,
+      "offset": 1143,
       "length": 8,
       "value": "\"WALLET\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1230,
       "length": 30,
       "value": "\"com.9payjsc.vn.NPayFramework\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1316,
+      "offset": 1313,
       "length": 3,
       "value": "244"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1320,
+      "offset": 1317,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1332,
+      "offset": 1329,
       "length": 3,
       "value": "246"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1336,
+      "offset": 1333,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1347,
+      "offset": 1344,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1351,
+      "offset": 1348,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1363,
+      "offset": 1360,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1411,
+      "offset": 1408,
       "length": 2,
       "value": "21"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1414,
+      "offset": 1411,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1426,
+      "offset": 1423,
       "length": 3,
       "value": "174"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1430,
+      "offset": 1427,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1441,
+      "offset": 1438,
       "length": 2,
       "value": "98"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1444,
+      "offset": 1441,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1456,
+      "offset": 1453,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1504,
+      "offset": 1501,
       "length": 2,
       "value": "37"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1507,
+      "offset": 1504,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1519,
+      "offset": 1516,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1522,
+      "offset": 1519,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1533,
+      "offset": 1530,
       "length": 2,
       "value": "43"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1536,
+      "offset": 1533,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1548,
+      "offset": 1545,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1595,
+      "offset": 1592,
       "length": 3,
       "value": "160"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1599,
+      "offset": 1596,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1611,
+      "offset": 1608,
       "length": 3,
       "value": "164"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1615,
+      "offset": 1612,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1626,
+      "offset": 1623,
       "length": 3,
       "value": "168"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1630,
+      "offset": 1627,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1642,
+      "offset": 1639,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1691,
+      "offset": 1688,
       "length": 3,
       "value": "246"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1695,
+      "offset": 1692,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1707,
+      "offset": 1704,
       "length": 3,
       "value": "183"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1711,
+      "offset": 1708,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1722,
+      "offset": 1719,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1725,
+      "offset": 1722,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1737,
+      "offset": 1734,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1780,
+      "offset": 1777,
       "length": 3,
       "value": "210"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1784,
+      "offset": 1781,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1796,
+      "offset": 1793,
       "length": 3,
       "value": "209"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1800,
+      "offset": 1797,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1811,
+      "offset": 1808,
       "length": 3,
       "value": "209"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1815,
+      "offset": 1812,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1827,
+      "offset": 1824,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1882,
+      "offset": 1879,
       "length": 13,
       "value": "\"SVN-Poppins\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1903,
+      "offset": 1900,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1955,
+      "offset": 1952,
       "length": 13,
       "value": "\"SVN-Poppins\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 1976,
+      "offset": 1973,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2021,
+      "offset": 2018,
       "length": 21,
       "value": "\"SVN-PoppinsSemiBold\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2050,
+      "offset": 2047,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 2095,
+      "offset": 2092,
       "length": 21,
       "value": "\"SVN-PoppinsSemiBold\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/Util\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 2124,
+      "offset": 2121,
       "length": 2,
       "value": "16"
     },
@@ -22728,7 +22728,7 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16404,
+      "offset": 16426,
       "length": 5,
       "value": "false"
     },
