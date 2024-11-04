@@ -597,7 +597,6 @@ SWIFT_CLASS("_TtC13NPayFramework33SkyFloatingLabelTextFieldWithIcon")
 
 
 
-
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -1183,7 +1182,6 @@ SWIFT_CLASS("_TtC13NPayFramework33SkyFloatingLabelTextFieldWithIcon")
 /// Invoked by layoutIfNeeded automatically
 - (void)layoutSubviews;
 @end
-
 
 
 
