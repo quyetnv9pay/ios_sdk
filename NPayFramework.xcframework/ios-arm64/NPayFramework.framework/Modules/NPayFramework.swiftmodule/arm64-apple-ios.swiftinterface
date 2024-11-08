@@ -204,7 +204,7 @@ public class NPayManager {
   @objc deinit
 }
 public class SDKConfigs {
-  public init(merchantCode: Swift.String, secretKey: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey, phoneNumber: Swift.String?)
+  public init(merchantCode: Swift.String, secretKey: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey, phoneNumber: Swift.String = "")
   public func getMerchantCode() -> Swift.String
   public func getSecretKey() -> Swift.String
   public func getUid() -> Swift.String
