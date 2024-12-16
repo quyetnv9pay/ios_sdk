@@ -20470,7 +20470,7 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 40362,
+      "offset": 40420,
       "length": 4,
       "value": "true"
     },
@@ -22759,7 +22759,7 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/NWebviewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18083,
+      "offset": 16415,
       "length": 5,
       "value": "false"
     },
