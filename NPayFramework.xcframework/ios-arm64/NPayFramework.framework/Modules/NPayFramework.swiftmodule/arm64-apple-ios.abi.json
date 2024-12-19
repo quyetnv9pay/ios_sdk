@@ -20407,70 +20407,70 @@
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2176,
+      "offset": 2182,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2348,
+      "offset": 2354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2390,
+      "offset": 2396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 2437,
+      "offset": 2443,
       "length": 3,
       "value": "407"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2737,
       "length": 28,
       "value": "\"Điều khoản của 9Pay\""
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2797,
+      "offset": 2803,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 2832,
+      "offset": 2838,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3018,
+      "offset": 3024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 3063,
+      "offset": 3069,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vihoang\/Development\/sdk-client\/ios\/NPayFramework\/NPayFramework\/ViewController\/InputCardInforVC\/InputCardInforVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 40420,
+      "offset": 40394,
       "length": 4,
       "value": "true"
     },
