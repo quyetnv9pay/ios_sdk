@@ -1,17 +1,7 @@
-
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "2.0.34"
+  spec.version      = "2.0.35"
   spec.summary      = "This SDK for 9Pay's Merchant"
-
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
 
 
@@ -55,9 +45,9 @@ Pod::Spec.new do |spec|
   #spec.exclude_files = "NPayFramework/Exclude"
   spec.requires_arc = true
   spec.ios.vendored_frameworks = 'NPayFramework.xcframework'
-  spec.dependency "CryptoSwift", "1.8"
+  spec.dependency "CryptoSwift", "~> 1.6.0" # Change to older version that supports iOS 13
   spec.dependency "lottie-ios", "< 4.0"
-  spec.dependency "HyperKYC", "0.37.0"
+  # spec.dependency "HyperKYC", "0.37.0"
   spec.dependency "KeychainAccess"
   # spec.public_header_files = "Classes/**/*.h"
 
