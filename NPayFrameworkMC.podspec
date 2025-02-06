@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   spec.dependency "KeychainAccess"
   # spec.public_header_files = "Classes/**/*.h"
 
-
+  s.static_framework = true
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
