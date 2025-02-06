@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "2.0.36"
+  spec.version      = "2.0.38"
   spec.summary      = "This SDK for 9Pay's Merchant"
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
 
@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   spec.dependency "KeychainAccess"
   # spec.public_header_files = "Classes/**/*.h"
 
-  s.static_framework = true
+  spec.static_framework = true
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
