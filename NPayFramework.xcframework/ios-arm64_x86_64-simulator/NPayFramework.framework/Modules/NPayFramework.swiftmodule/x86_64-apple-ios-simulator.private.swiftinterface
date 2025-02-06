@@ -17,6 +17,7 @@ import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
+import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 extension UIKit.UIFont {
