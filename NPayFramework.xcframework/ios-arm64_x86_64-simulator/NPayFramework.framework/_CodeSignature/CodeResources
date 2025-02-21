@@ -494,11 +494,11 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DQi9L/WmmuyOEt+LKaedhWYxqVw=
+		n2RnK7bPe9IGoc8ZGn/iEDjGTfI=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		S8Q5KA76Zr1SF2gm0KLOsCPyePk=
+		shc1yHroXcQ70Vtdt00mWI7zVuM=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -506,19 +506,19 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		S8Q5KA76Zr1SF2gm0KLOsCPyePk=
+		shc1yHroXcQ70Vtdt00mWI7zVuM=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Izj2UjzcUjU/oWDUmOzrOXfFd+8=
+		wddoQ3pt98UmjtCr5Wqon2eim+A=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DQi9L/WmmuyOEt+LKaedhWYxqVw=
+		n2RnK7bPe9IGoc8ZGn/iEDjGTfI=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EKyUEwEhSinmOcXPVgF52i6GDHA=
+		VKa/w9gm+PRuetSjgYSN+zqVZcI=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -526,11 +526,11 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EKyUEwEhSinmOcXPVgF52i6GDHA=
+		VKa/w9gm+PRuetSjgYSN+zqVZcI=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		b5VLifb+Qtz7U8zCgK7zwk0y9kg=
+		bghG3D7S9/I/IFI7FuKcNth7eaI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1482,14 +1482,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			df5J13J7sv7V8/94ViucpEIvJH2jkkqlvajY0DXUbqg=
+			LZc5/x5dLXJXnKvln93AQqFRzj5gVD2Nd7Gu7DEVa8U=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Twsw4I0J00ZwHYgzGZjIionnyk/L7LYUJE6riUiVktc=
+			LFkJfBa7is9vidBc3q749F5X9k/AhNJZvg2MZsQV9Ug=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1503,28 +1503,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Twsw4I0J00ZwHYgzGZjIionnyk/L7LYUJE6riUiVktc=
+			LFkJfBa7is9vidBc3q749F5X9k/AhNJZvg2MZsQV9Ug=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9XobSotZ253lK3MTelLjueYiiit4hie15sREvPHtVUg=
+			J+6CvIiqWJRGn0LWpdFAbzogRzTlRhRft+CQdN1h8LE=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			df5J13J7sv7V8/94ViucpEIvJH2jkkqlvajY0DXUbqg=
+			LZc5/x5dLXJXnKvln93AQqFRzj5gVD2Nd7Gu7DEVa8U=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4bXJkIBxB1lzhd4IFm8jSaBj7kl4DlJdykk8hBRHKI=
+			byyuV/xfGl2jAWvy9Taz6FieAQXBB2gvpwR517aFRQ0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1538,14 +1538,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4bXJkIBxB1lzhd4IFm8jSaBj7kl4DlJdykk8hBRHKI=
+			byyuV/xfGl2jAWvy9Taz6FieAQXBB2gvpwR517aFRQ0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MoEmqsP9QDqjL+KuZ0+WttRne7mY/hBMsZNITKZ8xnI=
+			SwQcWKZYGy1iyBymBDJ6Rv3vBDiyEBnbB3fVjJcnENY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

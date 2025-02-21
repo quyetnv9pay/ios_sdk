@@ -203,7 +203,14 @@ public class NPayManager {
   public func refreshAccessToken()
   public func logout()
   public func close()
+  public func getListPaymentMethod(onSuccess: @escaping ([Swift.String : Any]) -> Swift.Void, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func createOrder(amount: Swift.String, productName: Swift.String, requestId: Swift.String, orderType: Swift.String, bType: Swift.String, bInfo: Swift.String)
   @objc deinit
+}
+extension Foundation.URL {
+  public var queryParameters: [Swift.String : Swift.String]? {
+    get
+  }
 }
 public class SDKConfigs {
   public init(merchantCode: Swift.String, secretKey: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey, phoneNumber: Swift.String = "")
