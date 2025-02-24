@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "2.0.42"
+  spec.version      = "2.0.43"
   spec.summary      = "This SDK for 9Pay's Merchant"
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
 
@@ -44,6 +44,7 @@ Pod::Spec.new do |spec|
   #spec.resource_bundles = { 'Resources' => ['**/*.{xib,xcassets}'] }
   #spec.exclude_files = "NPayFramework/Exclude"
   spec.requires_arc = true
+  spec.vendored_frameworks = 'NPayFramework.xcframework'
   spec.ios.vendored_frameworks = 'NPayFramework.xcframework'
   spec.dependency "CryptoSwift", "~> 1.6.0" # Change to older version that supports iOS 13
   spec.dependency "lottie-ios", "< 4.0"
