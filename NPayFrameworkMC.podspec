@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "2.0.46"
+  spec.version      = "2.0.47"
   spec.summary      = "This SDK for 9Pay's Merchant"
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
 
@@ -46,10 +46,10 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.vendored_frameworks = 'NPayFramework.xcframework'
   spec.ios.vendored_frameworks = 'NPayFramework.xcframework'
-  spec.dependency "CryptoSwift", "~> 1.6.0" # Change to older version that supports iOS 13
-  spec.dependency "lottie-ios", "< 4.0"
-  spec.dependency "HyperKYC", "~> 0.38.0"
-  spec.dependency "KeychainAccess"
+  # spec.dependency "CryptoSwift", "~> 1.6.0" # Change to older version that supports iOS 13
+  # spec.dependency "lottie-ios", "< 4.0"
+  # spec.dependency "HyperKYC", "~> 0.38.0"
+  # spec.dependency "KeychainAccess"
   # spec.public_header_files = "Classes/**/*.h"
 
   spec.static_framework = true
