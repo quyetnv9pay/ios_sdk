@@ -1,17 +1,7 @@
-
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "2.0.6"
+  spec.version      = "3.0.0"
   spec.summary      = "This SDK for 9Pay's Merchant"
-
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
 
 
@@ -31,7 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
   spec.ios.deployment_target = "13.0"
-  spec.swift_versions = "5.6"
+  spec.swift_versions = "5.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -54,11 +44,15 @@ Pod::Spec.new do |spec|
   #spec.resource_bundles = { 'Resources' => ['**/*.{xib,xcassets}'] }
   #spec.exclude_files = "NPayFramework/Exclude"
   spec.requires_arc = true
+  spec.vendored_frameworks = 'NPayFramework.xcframework'
   spec.ios.vendored_frameworks = 'NPayFramework.xcframework'
-  spec.dependency "CryptoSwift", "1.8"
+  spec.dependency "CryptoSwift", "~> 1.6.0"
+  spec.dependency "lottie-ios", "< 4.0"
+  spec.dependency "HyperKYC", "~> 0.38.0"
+  spec.dependency "KeychainAccess"
   # spec.public_header_files = "Classes/**/*.h"
 
-
+  spec.static_framework = true
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
@@ -96,5 +90,5 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-
+  spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 end

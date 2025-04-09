@@ -1,11 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name NPayFramework
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
+import CoreNFC
 import CryptoSwift
 import DeveloperToolsSupport
 import Foundation
+import HyperKYC
 import ImageIO
+import KeychainAccess
+import Lottie
 @_exported import NPayFramework
 import Photos
 import Security
@@ -14,6 +19,7 @@ import SwiftUI
 import UIKit
 import WebKit
 import _Concurrency
+import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 extension UIKit.UIFont {
@@ -29,64 +35,64 @@ public enum IconType : Swift.Int {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SkyFloatingLabelTextFieldWithIcon : NPayFramework.SkyFloatingLabelTextField {
-  @_Concurrency.MainActor(unsafe) open var iconType: NPayFramework.IconType {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class SkyFloatingLabelTextFieldWithIcon : NPayFramework.SkyFloatingLabelTextField {
+  @_Concurrency.MainActor @preconcurrency open var iconType: NPayFramework.IconType {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) open var iconImageView: UIKit.UIImageView!
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var iconImage: UIKit.UIImage? {
+  @_Concurrency.MainActor @preconcurrency open var iconImageView: UIKit.UIImageView!
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var iconImage: UIKit.UIImage? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var templateImage: Swift.Bool {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var templateImage: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) open var iconLabel: UIKit.UILabel!
-  @objc @_Concurrency.MainActor(unsafe) dynamic open var iconFont: UIKit.UIFont? {
+  @_Concurrency.MainActor @preconcurrency open var iconLabel: UIKit.UILabel!
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open var iconFont: UIKit.UIFont? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var iconText: Swift.String? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var iconText: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var iconColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var iconColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var selectedIconColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var selectedIconColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var iconWidth: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var iconWidth: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var iconMarginLeft: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var iconMarginLeft: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var iconMarginBottom: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var iconMarginBottom: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var iconRotationDegrees: Swift.Double {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var iconRotationDegrees: Swift.Double {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) convenience public init(frame: CoreFoundation.CGRect, iconType: NPayFramework.IconType)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) override open func updateColors()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func placeholderRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency convenience public init(frame: CoreFoundation.CGRect, iconType: NPayFramework.IconType)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency override open func updateColors()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func placeholderRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TextFieldEffects : UIKit.UITextField {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class TextFieldEffects : UIKit.UITextField {
   public enum AnimationType : Swift.Int {
     case textEntry
     case textDisplay
@@ -97,24 +103,24 @@ public enum IconType : Swift.Int {
     }
   }
   public typealias AnimationCompletionHandler = (_ type: NPayFramework.TextFieldEffects.AnimationType) -> ()
-  @_Concurrency.MainActor(unsafe) final public let placeholderLabel: UIKit.UILabel
-  @_Concurrency.MainActor(unsafe) open func animateViewsForTextEntry()
-  @_Concurrency.MainActor(unsafe) open func animateViewsForTextDisplay()
-  @_Concurrency.MainActor(unsafe) open var animationCompletionHandler: NPayFramework.TextFieldEffects.AnimationCompletionHandler?
-  @_Concurrency.MainActor(unsafe) open func drawViewsForRect(_ rect: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) open func updateViewsForBoundsChange(_ bounds: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func drawPlaceholder(in rect: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+  @_Concurrency.MainActor @preconcurrency final public let placeholderLabel: UIKit.UILabel
+  @_Concurrency.MainActor @preconcurrency open func animateViewsForTextEntry()
+  @_Concurrency.MainActor @preconcurrency open func animateViewsForTextDisplay()
+  @_Concurrency.MainActor @preconcurrency open var animationCompletionHandler: NPayFramework.TextFieldEffects.AnimationCompletionHandler?
+  @_Concurrency.MainActor @preconcurrency open func drawViewsForRect(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency open func updateViewsForBoundsChange(_ bounds: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func drawPlaceholder(in rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView!)
-  @objc @_Concurrency.MainActor(unsafe) open func textFieldDidBeginEditing()
-  @objc @_Concurrency.MainActor(unsafe) open func textFieldDidEndEditing()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForInterfaceBuilder()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView!)
+  @objc @_Concurrency.MainActor @preconcurrency open func textFieldDidBeginEditing()
+  @objc @_Concurrency.MainActor @preconcurrency open func textFieldDidEndEditing()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public struct Actions {
@@ -165,6 +171,7 @@ public enum ServiceAction : Swift.String {
   case WITHDRAW
   case HISTORY
   case QR
+  case OPEN_WALLET
   case SDK_PAYMENT
   case TOPUP
   case PHONE_CARD
@@ -198,14 +205,22 @@ public class NPayManager {
   public func refreshAccessToken()
   public func logout()
   public func close()
+  public func getListPaymentMethod(onSuccess: @escaping ([Swift.String : Any]) -> Swift.Void, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func createOrder(amount: Swift.String, productName: Swift.String, requestId: Swift.String, orderType: Swift.String, bType: Swift.String, bInfo: Swift.String, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
+extension Foundation.URL {
+  public var queryParameters: [Swift.String : Swift.String]? {
+    get
+  }
+}
 public class SDKConfigs {
-  public init(merchantCode: Swift.String, secretKey: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey)
+  public init(merchantCode: Swift.String, secretKey: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey, phoneNumber: Swift.String = "")
   public func getMerchantCode() -> Swift.String
   public func getSecretKey() -> Swift.String
   public func getUid() -> Swift.String
   public func getBrandColor() -> Swift.String
+  public func getPhoneNumber() -> Swift.String
   @objc deinit
 }
 public enum ErrorMessagePlacement {
@@ -217,186 +232,186 @@ public enum ErrorMessagePlacement {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) open class SkyFloatingLabelTextField : UIKit.UITextField {
-  @objc @_Concurrency.MainActor(unsafe) open var isLTRLanguage: Swift.Bool {
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency open class SkyFloatingLabelTextField : UIKit.UITextField {
+  @objc @_Concurrency.MainActor @preconcurrency open var isLTRLanguage: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic open var titleFadeInDuration: Swift.Double
-  @objc @_Concurrency.MainActor(unsafe) dynamic open var titleFadeOutDuration: Swift.Double
-  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override dynamic open var textColor: UIKit.UIColor? {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open var titleFadeInDuration: Swift.Double
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open var titleFadeOutDuration: Swift.Double
+  @IBInspectable @_Concurrency.MainActor @preconcurrency @objc override dynamic open var textColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var placeholderColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var placeholderColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic open var placeholderFont: UIKit.UIFont? {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open var placeholderFont: UIKit.UIFont? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) open var errorMessagePlacement: NPayFramework.ErrorMessagePlacement {
+  @_Concurrency.MainActor @preconcurrency open var errorMessagePlacement: NPayFramework.ErrorMessagePlacement {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) open var errorLabelAlignment: UIKit.NSTextAlignment? {
+  @_Concurrency.MainActor @preconcurrency open var errorLabelAlignment: UIKit.NSTextAlignment? {
     get
     set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic open var titleFont: UIKit.UIFont {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open var titleFont: UIKit.UIFont {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var titleColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var titleColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var lineColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var lineColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var errorColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var errorColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var lineErrorColor: UIKit.UIColor? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var lineErrorColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var textErrorColor: UIKit.UIColor? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var textErrorColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var titleErrorColor: UIKit.UIColor? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var titleErrorColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var disabledColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var disabledColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var selectedTitleColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var selectedTitleColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var selectedLineColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var selectedLineColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var lineHeight: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var lineHeight: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var selectedLineHeight: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var selectedLineHeight: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) open var lineView: UIKit.UIView!
-  @_Concurrency.MainActor(unsafe) open var titleLabel: UIKit.UILabel!
-  @_Concurrency.MainActor(unsafe) open var errorLabel: UIKit.UILabel!
-  @_Concurrency.MainActor(unsafe) open var titleFormatter: (_ text: Swift.String) -> Swift.String
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSecureTextEntry: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency open var lineView: UIKit.UIView!
+  @_Concurrency.MainActor @preconcurrency open var titleLabel: UIKit.UILabel!
+  @_Concurrency.MainActor @preconcurrency open var errorLabel: UIKit.UILabel!
+  @_Concurrency.MainActor @preconcurrency open var titleFormatter: (_ text: Swift.String) -> Swift.String
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSecureTextEntry: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var errorMessage: Swift.String? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var errorMessage: Swift.String? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isHighlighted: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) open var editingOrSelected: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency open var editingOrSelected: Swift.Bool {
     get
   }
-  @_Concurrency.MainActor(unsafe) open var hasErrorMessage: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency open var hasErrorMessage: Swift.Bool {
     get
   }
-  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+  @IBInspectable @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
     @objc get
     @objc set
   }
-  @IBInspectable @_Concurrency.MainActor(unsafe) @objc override dynamic open var placeholder: Swift.String? {
+  @IBInspectable @_Concurrency.MainActor @preconcurrency @objc override dynamic open var placeholder: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var selectedTitle: Swift.String? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var selectedTitle: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var title: Swift.String? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var title: Swift.String? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSelected: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc @_Concurrency.MainActor(unsafe) open func editingChanged()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor @preconcurrency open func editingChanged()
   @discardableResult
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func becomeFirstResponder() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func becomeFirstResponder() -> Swift.Bool
   @discardableResult
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func resignFirstResponder() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func resignFirstResponder() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isEnabled: Swift.Bool {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) open func updateColors()
-  @_Concurrency.MainActor(unsafe) open func setTitleVisible(_ titleVisible: Swift.Bool, animated: Swift.Bool = false, animationCompletion: ((_ completed: Swift.Bool) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) open func isTitleVisible() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) open func isErrorVisible() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func placeholderRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func titleLabelRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func errorLabelRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func lineViewRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func titleHeight() -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) open func errorHeight() -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) open func textHeight() -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForInterfaceBuilder()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+  @_Concurrency.MainActor @preconcurrency open func updateColors()
+  @_Concurrency.MainActor @preconcurrency open func setTitleVisible(_ titleVisible: Swift.Bool, animated: Swift.Bool = false, animationCompletion: ((_ completed: Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency open func isTitleVisible() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open func isErrorVisible() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func placeholderRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency open func titleLabelRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency open func errorLabelRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency open func lineViewRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency open func titleHeight() -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency open func errorHeight() -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency open func textHeight() -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) open class HoshiTextField : NPayFramework.TextFieldEffects {
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var borderInactiveColor: UIKit.UIColor? {
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency open class HoshiTextField : NPayFramework.TextFieldEffects {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var borderInactiveColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var borderActiveColor: UIKit.UIColor? {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var borderActiveColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var placeholderColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var placeholderColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var placeholderFontScale: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var placeholderFontScale: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var placeholder: Swift.String? {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var placeholder: Swift.String? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var bounds: CoreFoundation.CGRect {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var bounds: CoreFoundation.CGRect {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) override open func drawViewsForRect(_ rect: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) override open func animateViewsForTextEntry()
-  @_Concurrency.MainActor(unsafe) override open func animateViewsForTextDisplay()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency override open func drawViewsForRect(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency override open func animateViewsForTextEntry()
+  @_Concurrency.MainActor @preconcurrency override open func animateViewsForTextDisplay()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public enum PopoverOption {
@@ -428,45 +443,45 @@ public enum PopoverOption {
     get
   }
 }
-@objc @objcMembers @_Concurrency.MainActor(unsafe) open class Popover : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) open var arrowSize: CoreFoundation.CGSize
-  @objc @_Concurrency.MainActor(unsafe) open var animationIn: Swift.Double
-  @objc @_Concurrency.MainActor(unsafe) open var animationOut: Swift.Double
-  @objc @_Concurrency.MainActor(unsafe) open var cornerRadius: CoreFoundation.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) open var sideEdge: CoreFoundation.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) open var popoverType: NPayFramework.PopoverType
-  @objc @_Concurrency.MainActor(unsafe) open var blackOverlayColor: UIKit.UIColor
-  @objc @_Concurrency.MainActor(unsafe) open var overlayBlur: UIKit.UIBlurEffect?
-  @objc @_Concurrency.MainActor(unsafe) open var popoverColor: UIKit.UIColor
-  @objc @_Concurrency.MainActor(unsafe) open var dismissOnBlackOverlayTap: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) open var showBlackOverlay: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) open var highlightFromView: Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) open var highlightCornerRadius: CoreFoundation.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) open var springDamping: CoreFoundation.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) open var initialSpringVelocity: CoreFoundation.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) open var sideOffset: CoreFoundation.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) open var borderColor: UIKit.UIColor?
-  @objc @_Concurrency.MainActor(unsafe) open var willShowHandler: (() -> ())?
-  @objc @_Concurrency.MainActor(unsafe) open var willDismissHandler: (() -> ())?
-  @objc @_Concurrency.MainActor(unsafe) open var didShowHandler: (() -> ())?
-  @objc @_Concurrency.MainActor(unsafe) open var didDismissHandler: (() -> ())?
-  @objc @_Concurrency.MainActor(unsafe) public var blackOverlay: UIKit.UIControl {
+@objc @objcMembers @_Concurrency.MainActor @preconcurrency open class Popover : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency open var arrowSize: CoreFoundation.CGSize
+  @objc @_Concurrency.MainActor @preconcurrency open var animationIn: Swift.Double
+  @objc @_Concurrency.MainActor @preconcurrency open var animationOut: Swift.Double
+  @objc @_Concurrency.MainActor @preconcurrency open var cornerRadius: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open var sideEdge: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open var popoverType: NPayFramework.PopoverType
+  @objc @_Concurrency.MainActor @preconcurrency open var blackOverlayColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor @preconcurrency open var overlayBlur: UIKit.UIBlurEffect?
+  @objc @_Concurrency.MainActor @preconcurrency open var popoverColor: UIKit.UIColor
+  @objc @_Concurrency.MainActor @preconcurrency open var dismissOnBlackOverlayTap: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open var showBlackOverlay: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open var highlightFromView: Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open var highlightCornerRadius: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open var springDamping: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open var initialSpringVelocity: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open var sideOffset: CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open var borderColor: UIKit.UIColor?
+  @objc @_Concurrency.MainActor @preconcurrency open var willShowHandler: (() -> ())?
+  @objc @_Concurrency.MainActor @preconcurrency open var willDismissHandler: (() -> ())?
+  @objc @_Concurrency.MainActor @preconcurrency open var didShowHandler: (() -> ())?
+  @objc @_Concurrency.MainActor @preconcurrency open var didDismissHandler: (() -> ())?
+  @objc @_Concurrency.MainActor @preconcurrency public var blackOverlay: UIKit.UIControl {
     get
   }
-  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
-  @objc @_Concurrency.MainActor(unsafe) public init(showHandler: (() -> ())?, dismissHandler: (() -> ())?)
-  @_Concurrency.MainActor(unsafe) public init(options: [NPayFramework.PopoverOption]?, showHandler: (() -> ())? = nil, dismissHandler: (() -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @objc @_Concurrency.MainActor(unsafe) open func showAsDialog(_ contentView: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) open func showAsDialog(_ contentView: UIKit.UIView, inView: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) open func show(_ contentView: UIKit.UIView, fromView: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) open func show(_ contentView: UIKit.UIView, fromView: UIKit.UIView, inView: UIKit.UIView)
-  @objc @_Concurrency.MainActor(unsafe) open func show(_ contentView: UIKit.UIView, point: CoreFoundation.CGPoint)
-  @objc @_Concurrency.MainActor(unsafe) open func show(_ contentView: UIKit.UIView, point: CoreFoundation.CGPoint, inView: UIKit.UIView)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func accessibilityPerformEscape() -> Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) open func dismiss()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @objc @_Concurrency.MainActor @preconcurrency public init(showHandler: (() -> ())?, dismissHandler: (() -> ())?)
+  @_Concurrency.MainActor @preconcurrency public init(options: [NPayFramework.PopoverOption]?, showHandler: (() -> ())? = nil, dismissHandler: (() -> ())? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @objc @_Concurrency.MainActor @preconcurrency open func showAsDialog(_ contentView: UIKit.UIView)
+  @objc @_Concurrency.MainActor @preconcurrency open func showAsDialog(_ contentView: UIKit.UIView, inView: UIKit.UIView)
+  @objc @_Concurrency.MainActor @preconcurrency open func show(_ contentView: UIKit.UIView, fromView: UIKit.UIView)
+  @objc @_Concurrency.MainActor @preconcurrency open func show(_ contentView: UIKit.UIView, fromView: UIKit.UIView, inView: UIKit.UIView)
+  @objc @_Concurrency.MainActor @preconcurrency open func show(_ contentView: UIKit.UIView, point: CoreFoundation.CGPoint)
+  @objc @_Concurrency.MainActor @preconcurrency open func show(_ contentView: UIKit.UIView, point: CoreFoundation.CGPoint, inView: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func accessibilityPerformEscape() -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open func dismiss()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
   @objc deinit
 }
 public enum EnvironmentKey : Swift.String {
@@ -480,9 +495,9 @@ public enum EnvironmentKey : Swift.String {
   }
 }
 extension UIKit.UIImageView {
-  @_Concurrency.MainActor(unsafe) public func loadGif(name: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func loadGif(name: Swift.String)
   @available(iOS 9.0, *)
-  @_Concurrency.MainActor(unsafe) public func loadGif(asset: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func loadGif(asset: Swift.String)
 }
 extension UIKit.UIImage {
   public class func gif(data: Foundation.Data) -> UIKit.UIImage?
@@ -492,10 +507,10 @@ extension UIKit.UIImage {
   public class func gif(asset: Swift.String) -> UIKit.UIImage?
 }
 extension UIKit.UIImageView {
-  @_Concurrency.MainActor(unsafe) public func imageFromServerURL(urlString: Swift.String, PlaceHolderImage: UIKit.UIImage)
+  @_Concurrency.MainActor @preconcurrency public func imageFromServerURL(urlString: Swift.String, PlaceHolderImage: UIKit.UIImage)
 }
 extension UIKit.UIDevice {
-  @_Concurrency.MainActor(unsafe) public static let modelName: Swift.String
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
 public enum LoadingType {
   case iOSDefault
