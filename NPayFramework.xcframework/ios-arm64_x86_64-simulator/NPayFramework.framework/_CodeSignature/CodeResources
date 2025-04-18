@@ -26,7 +26,7 @@
 		</data>
 		<key>Frameworks/HyperKYC.framework/HyperKYC</key>
 		<data>
-		1lW3+hyfNt1wv7Vjg7kM8EmJGGM=
+		+mWwrTyU3c7V2AsSsvbaa+nIa7Y=
 		</data>
 		<key>Frameworks/HyperKYC.framework/HyperKYCResources.bundle/Animations/error_state.lottie</key>
 		<data>
@@ -766,7 +766,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SwWL/3/uASrqFY7xoNyEbNCgl3o=
+		v9GV+A+JgQKtFVgNGbP04BXqSS8=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -786,7 +786,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SwWL/3/uASrqFY7xoNyEbNCgl3o=
+		v9GV+A+JgQKtFVgNGbP04BXqSS8=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -942,7 +942,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UX7hotWasnXUnBw4Tyut7mzVRBFiyL4hy3N4IhCBIl4=
+			feCgc27MAJ5EQAaJt6qx+OlmtQAuGzg+zJG7Zpix7ew=
 			</data>
 		</dict>
 		<key>Frameworks/HyperKYC.framework/HyperKYCResources.bundle/Animations/error_state.lottie</key>
@@ -2230,7 +2230,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gwx5DtfQEgtzxKjgICBT9PxLoIM9AaUf/khgw+4MqRQ=
+			UrZyVbeWdzrHEc9bMXzJozS6DKa1fS+wmpgoYtssnuU=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2265,7 +2265,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gwx5DtfQEgtzxKjgICBT9PxLoIM9AaUf/khgw+4MqRQ=
+			UrZyVbeWdzrHEc9bMXzJozS6DKa1fS+wmpgoYtssnuU=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
