@@ -350,7 +350,6 @@ SWIFT_CLASS("_TtC13NPayFramework14HoshiTextField")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
 enum PopoverType : NSInteger;
 @class UIBlurEffect;
 @class UIControl;

@@ -7,7 +7,6 @@ import CoreNFC
 import CryptoSwift
 import DeveloperToolsSupport
 import Foundation
-import HyperKYC
 import ImageIO
 import KeychainAccess
 import Lottie
