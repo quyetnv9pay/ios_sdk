@@ -48,7 +48,7 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'NPayFramework.xcframework'
   spec.dependency "CryptoSwift", "~> 1.6.0"
   spec.dependency "lottie-ios", "< 4.0"
-  spec.dependency "HyperKYC", "~> 0.38.0"
+  # spec.dependency "HyperKYC", "~> 0.38.0"
   spec.dependency "KeychainAccess"
   # spec.public_header_files = "Classes/**/*.h"
 
