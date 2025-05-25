@@ -171,6 +171,8 @@ public enum ServiceAction : Swift.String {
   case HISTORY
   case QR
   case OPEN_WALLET
+  case EKYC
+  case LINK_BANK
   case SDK_PAYMENT
   case TOPUP
   case PHONE_CARD
