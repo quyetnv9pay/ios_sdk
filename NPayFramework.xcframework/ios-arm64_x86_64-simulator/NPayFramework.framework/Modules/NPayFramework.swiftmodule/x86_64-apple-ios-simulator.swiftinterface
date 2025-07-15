@@ -208,6 +208,7 @@ public class NPayManager {
   public func close()
   public func getListPaymentMethod(onSuccess: @escaping ([Swift.String : Any]) -> Swift.Void)
   public func createOrder(amount: Swift.String, productName: Swift.String, bType: Swift.String, bInfo: Swift.String, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func testOrder(amount: Swift.String, productName: Swift.String, bType: Swift.String, bInfo: Swift.String, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
 extension Foundation.URL {
