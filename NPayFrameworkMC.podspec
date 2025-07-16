@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.author             = { "phuonghd" => "phuonghd@9pay.vn" }
+  spec.author             = { "mobile" => "mobile@9pay.vn" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
