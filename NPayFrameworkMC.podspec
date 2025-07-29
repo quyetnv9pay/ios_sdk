@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NPayFrameworkMC"
-  spec.version      = "3.1.2"
+  spec.version      = "3.1.3"
   spec.summary      = "This SDK for 9Pay's Merchant"
   spec.homepage     = "https://github.com/mobile9pay/ios_sdk"
 
