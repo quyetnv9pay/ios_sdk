@@ -202,12 +202,12 @@ public class NPayManager {
   public func openSDKWithAction(action: NPayFramework.ServiceAction, vController: UIKit.UIViewController)
   public func openPaymentOnSDK(orderDataString: Swift.String!, vController: UIKit.UIViewController, paymentMethod: NPayFramework.PaymentMethod = .WALLET, isShowResultScreen: Swift.Bool = true)
   public func open9PayApp()
-  public func getUserInfo()
-  public func refreshAccessToken()
+  public func getUserInfo(retryCount: Swift.Int = 0)
+  public func refreshAccessToken(retryCount: Swift.Int = 0)
   public func logout()
   public func close()
-  public func getListPaymentMethod(onSuccess: @escaping ([Swift.String : Any]) -> Swift.Void)
-  public func createOrder(amount: Swift.String, productName: Swift.String, bType: Swift.String, bInfo: Swift.String, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void)
+  public func getListPaymentMethod(onSuccess: @escaping ([Swift.String : Any]) -> Swift.Void, retryCount: Swift.Int = 0)
+  public func createOrder(requestId: Swift.String, amount: Swift.String, productName: Swift.String, bType: Swift.String, bInfo: Swift.String, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void, retryCount: Swift.Int = 0)
   public func testOrder(amount: Swift.String, productName: Swift.String, bType: Swift.String, bInfo: Swift.String, onFailed: @escaping ([Swift.String : Any]) -> Swift.Void)
   @objc deinit
 }
