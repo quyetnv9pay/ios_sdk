@@ -446,7 +446,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nlLe9YzszBP+MeNawWJu4Nb+VMk=
+		aa6iBv9r6CN7qa5z4yjSaiA85JI=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -462,11 +462,11 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GwdOF6Ci/e5pvFULfZnXvYKtVGY=
+		amuY0a83niWeDjMxVdI5YST55CY=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nlLe9YzszBP+MeNawWJu4Nb+VMk=
+		aa6iBv9r6CN7qa5z4yjSaiA85JI=
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cQdSv+bYjFAzdyUPoB3O4PlidqU=
+		vqYDQJDANePwhqDhaMGXMzbMkiE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1350,7 +1350,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EfENdABVG6PjyHN1rI4jERP+XU4ACuwAQq9VjLxY91Q=
+			Y84n8b16IAsU5MnjKNIXGzIbn08Zan2NQdfThYNGIlw=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1378,14 +1378,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D/Wbi/Vigipc9fVs7MZhjfPw8QRYY/ocT6Y3nPN2Bfg=
+			FOK6+OEzkcs9VmHwzTsz+RqS4/iNL++Rg1A1r19WAm0=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EfENdABVG6PjyHN1rI4jERP+XU4ACuwAQq9VjLxY91Q=
+			Y84n8b16IAsU5MnjKNIXGzIbn08Zan2NQdfThYNGIlw=
 			</data>
 		</dict>
 		<key>Modules/NPayFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1413,7 +1413,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bSNn5OlTXdW59W9234gjBzpSeUBP1ucjM5QxCKpi5i8=
+			m3qc966rlkN2zvjrlYoa8GBKRZGk4KgHRLMiOgbv/5s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
