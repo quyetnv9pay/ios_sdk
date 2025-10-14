@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name NPayFramework
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import CoreNFC
 import CryptoSwift
@@ -28,7 +28,9 @@ extension UIKit.UIFont {
 public enum IconType : Swift.Int {
   case font
   case image
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -83,7 +85,9 @@ public enum IconType : Swift.Int {
   }
   @_Concurrency.MainActor @preconcurrency convenience public init(frame: CoreFoundation.CGRect, iconType: NPayFramework.IconType)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency override open func updateColors()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
@@ -95,7 +99,9 @@ public enum IconType : Swift.Int {
   public enum AnimationType : Swift.Int {
     case textEntry
     case textDisplay
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -110,16 +116,22 @@ public enum IconType : Swift.Int {
   @_Concurrency.MainActor @preconcurrency open func updateViewsForBoundsChange(_ bounds: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func draw(_ rect: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func drawPlaceholder(in rect: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func willMove(toSuperview newSuperview: UIKit.UIView!)
+  #endif
   @objc @_Concurrency.MainActor @preconcurrency open func textFieldDidBeginEditing()
   @objc @_Concurrency.MainActor @preconcurrency open func textFieldDidEndEditing()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public struct Actions {
@@ -156,7 +168,9 @@ public enum PaymentMethod : Swift.String {
   case LINK_BANK
   case DEFAULT
   case TRANSFER
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -180,7 +194,9 @@ public enum ServiceAction : Swift.String {
   case SERVICES_CARD
   case BILLING
   case GAME_CARD
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -191,7 +207,9 @@ public protocol LibListener {
   func onLogoutSuccessful()
   func onError(errorCode: Swift.Int, message: Swift.String)
   func onCloseSDK()
+  #if compiler(>=5.3) && $NonescapableTypes
   func sdkDidComplete(action: Swift.String, status: Swift.Bool?, param: [Swift.String : Any]?)
+  #endif
   func backToAppFrom(action: Swift.String)
 }
 public class NPayManager {
@@ -200,24 +218,40 @@ public class NPayManager {
   public func login()
   public func openWallet(action: Swift.String)
   public func openSDKWithAction(action: NPayFramework.ServiceAction, vController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func openPaymentOnSDK(orderDataString: Swift.String!, vController: UIKit.UIViewController, paymentMethod: NPayFramework.PaymentMethod = .WALLET, isShowResultScreen: Swift.Bool = true)
+  #endif
   public func open9PayApp()
   public func getUserInfo()
   public func refreshAccessToken(retryCount: Swift.Int = 0)
   public func logout()
   public func close()
   public func getListPaymentMethod(onSuccess: @escaping ([Swift.String : Any]) -> Swift.Void)
-  public func createOrder(requestId: Swift.String?, amount: Swift.String, productName: Swift.String, bType: Swift.String, bInfo: Swift.String, metaData: [Swift.String : Any]?, completion: @escaping (Swift.Result<NPayFramework.CreateOrderModel, NPayFramework.SDKError>) -> Swift.Void)
-  public func payOrder(orderId: Swift.String, bType: Swift.String, bInfo: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func createOrder(requestId: Swift.String? = nil, amount: Swift.String, productName: Swift.String, bType: Swift.String, bInfo: Swift.String, couponId: Swift.Int? = nil, coupon: Swift.String? = nil, metaData: [Swift.String : Any]? = nil, completion: @escaping (Swift.Result<NPayFramework.CreateOrderModel, NPayFramework.SDKError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func payOrder(orderId: Swift.String, bType: Swift.String, bInfo: Swift.String, couponId: Swift.Int? = nil, coupon: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getListOfCoupons(amount: Swift.String, eventId: Swift.String? = nil, completion: @escaping (Swift.Result<[Swift.String : Any], NPayFramework.SDKError>) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func validateCoupon(amount: Swift.String, couponId: Swift.Int?, coupon: Swift.String?, eventId: Swift.String?, completion: @escaping (Swift.Result<[Swift.String : Any], NPayFramework.SDKError>) -> Swift.Void)
+  #endif
   @objc deinit
 }
 extension Foundation.URL {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var queryParameters: [Swift.String : Swift.String]? {
     get
   }
+  #endif
 }
 public class SDKConfigs {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(merchantCode: Swift.String, secretKey: Swift.String, uid: Swift.String?, brandColor: Swift.String, env: NPayFramework.EnvironmentKey, phoneNumber: Swift.String = "")
+  #endif
   public func getMerchantCode() -> Swift.String
   public func getSecretKey() -> Swift.String
   public func getUid() -> Swift.String
@@ -241,10 +275,12 @@ public enum ErrorMessagePlacement {
   }
   @objc @_Concurrency.MainActor @preconcurrency dynamic open var titleFadeInDuration: Swift.Double
   @objc @_Concurrency.MainActor @preconcurrency dynamic open var titleFadeOutDuration: Swift.Double
+  #if compiler(>=5.3) && $NonescapableTypes
   @IBInspectable @_Concurrency.MainActor @preconcurrency @objc override dynamic open var textColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
+  #endif
   @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var placeholderColor: UIKit.UIColor {
     @objc get
     @objc set
@@ -331,14 +367,18 @@ public enum ErrorMessagePlacement {
   @_Concurrency.MainActor @preconcurrency open var hasErrorMessage: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @IBInspectable @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @IBInspectable @_Concurrency.MainActor @preconcurrency @objc override dynamic open var placeholder: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var selectedTitle: Swift.String? {
     @objc get
     @objc set
@@ -352,7 +392,9 @@ public enum ErrorMessagePlacement {
     @objc set
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc @_Concurrency.MainActor @preconcurrency open func editingChanged()
   @discardableResult
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func becomeFirstResponder() -> Swift.Bool
@@ -363,7 +405,9 @@ public enum ErrorMessagePlacement {
     @objc set
   }
   @_Concurrency.MainActor @preconcurrency open func updateColors()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func setTitleVisible(_ titleVisible: Swift.Bool, animated: Swift.Bool = false, animationCompletion: ((_ completed: Swift.Bool) -> Swift.Void)? = nil)
+  #endif
   @_Concurrency.MainActor @preconcurrency open func isTitleVisible() -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency open func isErrorVisible() -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
@@ -399,10 +443,12 @@ public enum ErrorMessagePlacement {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var placeholder: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var bounds: CoreFoundation.CGRect {
     @objc get
     @objc set
@@ -413,7 +459,9 @@ public enum ErrorMessagePlacement {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public enum PopoverOption {
@@ -439,7 +487,9 @@ public enum PopoverOption {
   case left
   case right
   case auto
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -471,9 +521,15 @@ public enum PopoverOption {
     get
   }
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency public init(showHandler: (() -> ())?, dismissHandler: (() -> ())?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(options: [NPayFramework.PopoverOption]?, showHandler: (() -> ())? = nil, dismissHandler: (() -> ())? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @objc @_Concurrency.MainActor @preconcurrency open func showAsDialog(_ contentView: UIKit.UIView)
   @objc @_Concurrency.MainActor @preconcurrency open func showAsDialog(_ contentView: UIKit.UIView, inView: UIKit.UIView)
@@ -493,7 +549,9 @@ public enum EnvironmentKey : Swift.String {
   case STG
   case SANDBOX
   case PRODUCTION
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -505,11 +563,19 @@ extension UIKit.UIImageView {
   @_Concurrency.MainActor @preconcurrency public func loadGif(asset: Swift.String)
 }
 extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func gif(data: Foundation.Data) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func gif(url: Swift.String) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func gif(name: Swift.String) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 9.0, *)
   public class func gif(asset: Swift.String) -> UIKit.UIImage?
+  #endif
 }
 extension UIKit.UIImageView {
   @_Concurrency.MainActor @preconcurrency public func imageFromServerURL(urlString: Swift.String, PlaceHolderImage: UIKit.UIImage)
@@ -518,6 +584,10 @@ extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
 }
 public struct CreateOrderModel : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CouponInfo : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
